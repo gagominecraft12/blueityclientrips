@@ -1,3 +1,5 @@
-requestAnimationFrame(38),atob("slash"),addEventListener(window);
+atob("A")
 
-Audio("base32",1,2)
+KeyboardEvent("B")
+
+alert("Blue'ity Client Rips is a GA4S Remake View the credits below.")

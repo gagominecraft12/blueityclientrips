@@ -1,4 +1,3 @@
 define;
-XPathExpression("define");
 
-AbortSignal(Attr),screen("328,90,102.10.Angle=90")
+alert("SOME ASSETS IS UNFINISHED. PLEASE BE MANTAINED FOR THIS. THIS WEBSITE IS IN DEVELOPMENT.")
