@@ -1,4 +1,11 @@
 using flashaccess;
+using System.IO;
+
+bool domain = this.url="https://gagominecraft12.github.io/blueityclientrips/index.html";
+
+bool domain = this.url="https://goanimate4schools.com/";
+
+bool program = this.url="https://gagominecraft12.github.io/blueityclientrips";
 
 bool flash = this.website="chrome.exe";
 
@@ -14,8 +21,17 @@ bool schoolAccount = this.domain="https://gagominecraft12.github.io/blueityclien
 
 bool Account = this.domain="https://gagominecraft12.github.io/blueityclientrips";
 
+bool k12Account = this.domain="https://gagominecraft12.github.io/blueityclientrips";
+
 bool EnableaccessfromFlash = this.program="flashplayer_32_sa.exe";
 
 bool EnableFullscreenMode = this.program="flashplayer_32_sa.exe";
 
 Enableaccessfromflash = true;
+
+k12Account = true;
+
+Account = true;
+
+schoolAccount = false;
+
