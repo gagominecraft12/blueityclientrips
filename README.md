@@ -4,13 +4,17 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 
 # Credits:
 
-GoAnimate/Vyond: Official creator of vyond/goanimate
+<a href="https://twitter.com/Vyond">GoAnimate/Vyond: Official creator of vyond/goanimate</a>
 
 ------------------------------------------------------------------
 
-GoTest334: GoAnimate Archive Assets
+<a href="https://github.com/GoTest334">GoTest334: GoAnimate Archive Assets</a>
 
 -------------------------------------------------------------------
+
+<a href="https://fridaynightfunking.fandom.com/wiki/">FNF Fandom: Images and something</a>
+
+<a href="https://fridaynightfunkin.fandom.com/wiki/">Some images.</a>
 
 # Codes:
 
