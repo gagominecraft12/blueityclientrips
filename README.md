@@ -6,11 +6,15 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 
 <a href="https://twitter.com/Vyond">GoAnimate/Vyond: Official creator of vyond/goanimate</a>
 
+<a href="https://twitter.com/alvinhung">Alvin Hung: Assets and some stuff idk lolz :)</a>
+
 ------------------------------------------------------------------
 
 <a href="https://github.com/GoTest334">GoTest334: GoAnimate Archive Assets</a>
 
 <a>VyondHoster: Official Page. (THE LINK AIN'T FOUND BECAUSE OF THE MESSAGE SAYING "The authors have deleted this page.")
+
+<a href="https://www.newtonsoft.com/json">Newtonsoft: Json DLL Files (Edited the cs because why not), "i credited to newtonsoft"</a>
 
 -------------------------------------------------------------------
 

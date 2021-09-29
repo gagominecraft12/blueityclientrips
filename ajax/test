@@ -1,0 +1,4 @@
+const test = new test
+
+module.exports = function(api, req, url) {
+}
