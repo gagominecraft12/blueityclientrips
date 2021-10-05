@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Glegoo'), local('Glegoo-Regular'), url(http://web.archive.org/web/20120821162633im_/http://themes.googleusercontent.com/static/fonts/glegoo/v1/rRnY1PEvm8fHngJkZm5BIA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://web.archive.org/web/20120821162633im_/http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMfEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 16:26:33 Aug 21, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:37:29 Oct 01, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 254.58
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.111
+  RedisCDXSource: 1.226
+  esindex: 0.01
+  LoadShardBlock: 224.273 (3)
+  PetaboxLoader3.datanode: 235.978 (4)
+  CDXLines.iter: 22.674 (3)
+  load_resource: 140.526
+  PetaboxLoader3.resolve: 98.656
+*/

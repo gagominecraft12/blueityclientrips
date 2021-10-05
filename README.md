@@ -16,6 +16,8 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 
 <a href="https://www.newtonsoft.com/json">Newtonsoft: Json DLL Files (Edited the cs because why not), "i credited to newtonsoft"</a>
 
+<a href="https://archivarix.com/">Archivarix - Some stuff that saves for me</a>
+
 -------------------------------------------------------------------
 
 <a href="https://fridaynightfunking.fandom.com/wiki/">FNF Fandom: Images and something</a>
@@ -29,7 +31,7 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 <h6>var character = "adam"; // change to "adam", "bob" , "eve" , or "rocky" depending on who you want to start with.
 $('#char_creator_client').flash({
    id: "char_creator",
-   swf: "https://web.archive.org/web/20191027000230/https://d3v4eglovri8yt.cloudfront.net/animation/414827163ad4eb60/cc.swf",
+   swf: "https://wrapperonlineold.2epik4u.xyz/animation/414827163ad4eb60/cc.swf",
    height: 600,
    width: 960,
    align: "middle",
@@ -37,4 +39,4 @@ $('#char_creator_client').flash({
    allowFullScreen: "true",
    wmode: "transparent",
    hasVersion: "10.3",
-   flashvars: {"apiserver":"https:\/\/web.archive.org\/web\/20191027000230\/https:\/\/goanimate4schools.com\/","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https:\/\/web.archive.org\/web\/20191027000230\/https:\/\/d3v4eglovri8yt.cloudfront.net\/store\/3a981f5cb2739137\/<store>","clientThemePath":"https:\/\/web.archive.org\/web\/20191027000230\/https:\/\/d3v4eglovri8yt.cloudfront.net\/static\/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});</h6>
+   flashvars: {"apiserver":"https://wrapperonlineold.2epik4u.xyz","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});</h6>
