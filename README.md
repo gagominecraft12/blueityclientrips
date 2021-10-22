@@ -18,6 +18,8 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 | Alvin Hung              | (twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
 | Vyond                   | (vyond.com)                 | Some of LVM and Assets.  |
 | Imageny                 | (github.com/imageny)        | VFProxy, Other stuff.    |
+| GoTest334               | (github.com/GoTest334)      | VyondHoster things, something. |
+| VyondHoster Team   | Cant be found due of authors deleting the site. | Original things. |
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 <!-- 
