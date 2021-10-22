@@ -2,27 +2,37 @@ BLUE'ITY CLIENT RIPS THAT WILL BE USED IN.
 
 THIS IS A REMAKE OF GA4S THAT IS USED.
 
+
+# Quick credit while forking:
+
+| Credit when forking "quickest way" | Link:                       | Description:  |
+| ---------------------------------- | --------------------------- | ------------- |
+| Blue'ity                           | (github.com/gagominecraft12/blueityclientrips)  | Original Project at (github.com/gagominecraft12/blueityclientrips
+
+-----------------------------------
+
 # Credits:
 
-<a href="https://twitter.com/Vyond">GoAnimate/Vyond: Official creator of vyond/goanimate</a>
+| Company (Name)     | Link               | Description |
+| ------------------ | ------------------ | ----------- |
+| Alvin Hung              | (twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
+| Vyond                   | (vyond.com)                 | Some of LVM and Assets.  |
+| Imageny                 | (github.com/imageny)        | VFProxy, Other stuff.    |
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-<a href="https://twitter.com/alvinhung">Alvin Hung: Assets and some stuff idk lolz :)</a>
+<!-- 
+Reference:
 
-------------------------------------------------------------------
-
-<a href="https://github.com/GoTest334">GoTest334: GoAnimate Archive Assets</a>
-
-<a>VyondHoster: Official Page. (THE LINK AIN'T FOUND BECAUSE OF THE MESSAGE SAYING "The authors have deleted this page.")
-
-<a href="https://www.newtonsoft.com/json">Newtonsoft: Json DLL Files (Edited the cs because why not), "i credited to newtonsoft"</a>
-
-<a href="https://archivarix.com/">Archivarix - Some stuff that saves for me</a>
-
--------------------------------------------------------------------
-
-<a href="https://fridaynightfunking.fandom.com/wiki/">FNF Fandom: Images and something</a>
-
-<a href="https://fridaynightfunkin.fandom.com/wiki/">Some images.</a>
+| Name               | Contribution                     |
+| ------------------ | -------------------------------- |
+| Vyond              | Creators of the themes we love   |
+| http-party         | Creators of http-server          |
+| Stephan Brenner    | Creator of SilentCMD             |
+| vocatus            | Some of TronScript's batch code  |
+| ss64.com           | Incredible CMD info resource     |
+| robvanderwoude.com | Also amazing CMD info resource   |
+| darktohka          | Creator of FlashPatch            |
+-->
 
 # Codes:
 
