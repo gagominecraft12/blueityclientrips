@@ -20,6 +20,11 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 | Imageny                 | (github.com/imageny)        | VFProxy, Other stuff.    |
 | GoTest334               | (github.com/GoTest334)      | VyondHoster things, something. |
 | VyondHoster Team   | Cant be found due of authors deleting the site. | Original things. |
+
+| Image Credits  | Link | Description |
+| -------------- | ---- | ----------- |
+| FNFMod Fandom  | https://fridaynightfunking.fandom.com/wiki/ | Some of things. |
+| FNF Fandom  | https://fridaynightfunkin.fandom.com/wiki/ | Some of things. |
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 <!-- 
