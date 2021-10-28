@@ -3,11 +3,15 @@ html {
 }
 .container {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rainbow_icon.svg/1200px-Rainbow_icon.svg.png');
-    width: 200px;
+    width: 1000px;
+    border: auto;
+    align-content: center;
 }
 .warning-message {
-    background: yellowgreen;
-    width: 200px;
+    background: #ffb171;
+    width: 100px;
+    border: auto;
+    align-content: center;
 }
 button {
     background: orange;

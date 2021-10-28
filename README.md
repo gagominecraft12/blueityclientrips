@@ -41,6 +41,12 @@ Reference:
 | darktohka          | Creator of FlashPatch            |
 -->
 
+<!-- 
+Update:
+Remastered warning and container colors and code.
+Polished the fle ("def.css")
+ -->
+
 # Codes:
 
 <strong>CHANGE GENDER TYPE:</strong>
