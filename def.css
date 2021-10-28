@@ -5,7 +5,7 @@ html {
     background: rgb(57, 149, 255);
     width: 100%;
     height: 80px;
-    background-color: #E1E1E1;
+    background-color: #00eeff;
     box-sizing:border-box;
     margin-bottom: 4px;
     margin-top: 4px;
@@ -17,7 +17,6 @@ html {
     background: #ffb171;
     width: 100%;
     height: 80px;
-    background-color: #E1E1E1;
     box-sizing:border-box;
     margin-bottom: 4px;
     margin-top: 4px;
