@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./def.css" rel="stylesheet">
+    <title>Blue'ity Client Rips</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./static/img/logo4s.png" width="420" height="60">
+    </div>
+    <div class="about">
+        <p style="text-align: center; font-family: Segoe UI; font-size: large; color: white">WIP</p>
+    </div>
+</body>
+</html>

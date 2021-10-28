@@ -13,11 +13,24 @@ html {
     margin-left: auto;
 }
 /* Make the child go to the border */
-.container>:nth-child() {
+.container>:nth-child(1) {
     border:thick;
     background: rgb(57, 149, 255);
     width: 100%;
     height: 80px;
+    background-color: #00eeff;
+    box-sizing:border-box;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* The child must be with lot of details to border it to the limit. */
+.container>:nth-last-child(1) {
+    border:thin;
+    background: rgb(57, 149, 255);
+    width: 100%;
+    height: 100%;
     background-color: #00eeff;
     box-sizing:border-box;
     margin-bottom: 4px;
