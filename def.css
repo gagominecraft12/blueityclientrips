@@ -89,3 +89,7 @@ strong {
     font-family: Segoe UI;
     color: white;
 }
+strong>::after {
+    font-family: Segoe UI;
+    color: white;
+}
