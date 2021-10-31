@@ -29,6 +29,10 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 | HTML and Code Guides | Link | Description |
 | -------------------- | ---- | ----------- |
 | Agernic              | https://www.agernic.com/ | HTML Code and CSS Code |
+
+| Painting Software    | Link | Description |
+| -------------------- | ---- | ----------  |
+| Sketchpad            | https://sketch.io/sketchpad/ | Thanks to Sketchpad for making the Blue'ity Client Rips logo. | 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 <!-- 
