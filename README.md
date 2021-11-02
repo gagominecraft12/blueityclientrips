@@ -51,8 +51,8 @@ Reference:
 
 <!-- 
 Update:
-Remastered warning and container colors and code.
-Polished the fle ("def.css")
+Removed the GoAnimate4Schools logo due of copyright.
+Better buttons!
  -->
 
 # Codes:
