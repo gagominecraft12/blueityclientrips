@@ -1,0 +1,10 @@
+{
+    "pages": "/  ,  /index.html  ,  ./  ,   ",
+
+    "scripts": {
+        "/webkits/ref/gawrapper/displayPages": {
+            "statuscode": "400",
+            "content": ""
+        }
+    }
+}
