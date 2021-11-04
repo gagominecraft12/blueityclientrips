@@ -25,6 +25,10 @@
         "/ajax/cookie_policy": {
             "statusCode": 400,
             "content": ""
+        },
+        "/ajax/supervision.lua": {
+            "statusCode": 400,
+            "content": "local msg > box = local box = isRoundy = true;local msg = return msg;local swfvision = math.abs( 1 + 3 ) & assert(a[, extovision]);local extovision = return swfvision;local utf.params ... = {pattern = true;char = true; return package.cpath(;);len = true; return module(...);}"
         }
     },
 
@@ -32,6 +36,17 @@
         "/school/videomaker/dummy.html": {
             "statusCode": 400,
             "content": true
+        },
+        "/school/videomaker/index.html": {
+            "statusCode": 400,
+            "content": true
+        },
+        "/index.html": {
+            "location": {
+                "statusCode": "unknown"
+                ,
+                "../index.html": true
+            }
         }
     }
 }
