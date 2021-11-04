@@ -1,3 +1,37 @@
 {
-    "pages": "videomaker/dummy.html , videomaker/index.html , videomaker , videomaker/main.lua"
+    "pages": {
+        "content": {
+            "/videomaker/":true,"/videomaker/dummy.html":true,"/videomaker/main.lua":true
+        }
+    },
+
+    "POST": {
+        "/goapi/saveWaveform": {
+            "statusCode": 400,
+            "content": "module.exports = function index(res, req, url) {var waveform = window.location.href = '?savedVideo=1' if (res.end()) return waveform true; url.path = waveform;}"
+        },
+        "/goapi/saveSound": {
+            "statusCode": 400,
+            "content": ""
+        },
+        "/goapi/getText2SpeechVoices": {
+            "statusCode": 400,
+            "content": ""
+        },
+        "/waffle/getFileFromSWF.js": {
+            "statusCode": 400,
+            "content": ""
+        },
+        "/ajax/cookie_policy": {
+            "statusCode": 400,
+            "content": ""
+        }
+    },
+
+    "GET": {
+        "/school/videomaker/dummy.html": {
+            "statusCode": 400,
+            "content": true
+        }
+    }
 }

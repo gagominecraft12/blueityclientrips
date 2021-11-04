@@ -1,0 +1,21 @@
+{
+    "files": {
+        "content": {
+            "/favicon/": true,
+            "/favicon": true,
+            "/favicon/Favicon.sketchpad.svg": true
+        }
+    },
+    // Using the exact types are svg and png, jpg, jpeg, pneg
+    "types": {
+        "": true,
+        "/": false,
+        ".svg": true,
+        ".sketchpad.svg": true,
+        ".sketchpad": false
+    },
+
+    "isFileAFolder?": {
+        "/":false,".svg":false,".sketchpad.svg":false,".sketchpad":false
+    }
+}
