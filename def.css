@@ -127,11 +127,11 @@ school-p {
     color:rgb(255, 255, 255);
     font-family: Segoe UI;    
 }
-script {
-    display: inline; color: calc()0;
-}
 thisarea {
     display: list-item; color:rgb(57, 149, 255) calc(0);
+}
+script>::after {
+    
 }
 strong {
     font-family: Segoe UI;
