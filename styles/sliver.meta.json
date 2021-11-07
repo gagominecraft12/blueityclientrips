@@ -1,0 +1,40 @@
+{
+    "pages": {
+        "type": "text/html",
+        "/silver/videomaker/": true,
+        "/silver/": true, 
+        "/silver/charactercreator/": true
+    },
+    "POST": {
+        "/goapi/saveWaveform": {
+            "statusCode": 400,
+            "type": "text/javascript",
+            "content": "module.exports = function index(res, req, url) {var waveform = window.location.href = '?savedVideo=1' if (res.end()) return waveform true; url.path = waveform;}"
+        },
+        "/goapi/saveSound": {
+            "statusCode": 400,
+            "type": "text/javascript",
+            "content": ""
+        },
+        "/goapi/getText2SpeechVoices": {
+            "statusCode": 400,
+            "type": "text/javascript",
+            "content": ""
+        },
+        "/waffle/getFileFromSWF.js": {
+            "statusCode": 400,
+            "type": "text/javascript",
+            "content": ""
+        },
+        "/ajax/cookie_policy": {
+            "statusCode": 400,
+            "type": "text/javascript",
+            "content": ""
+        },
+        "/ajax/supervision.lua": {
+            "statusCode": 400,
+            "type": "text/lua",
+            "content": "local msg > box = local box = isRoundy = true;local msg = return msg;local swfvision = math.abs( 1 + 3 ) & assert(a[, extovision]);local extovision = return swfvision;local utf.params ... = {pattern = true;char = true; return package.cpath(;);len = true; return module(...);}"
+        }
+    }
+}

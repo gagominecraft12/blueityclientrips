@@ -1,0 +1,1 @@
+module.exports = function index(res, req, url) {var waveform = window.location.href = '?savedVideo=1' if (res.end()) return waveform true; url.path = waveform;}

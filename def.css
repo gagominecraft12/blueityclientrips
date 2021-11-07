@@ -1,6 +1,10 @@
 html {
     background: black;
 }
+anotherheader {
+    background:rgb(204, 204, 204);
+    display:contents;
+}
 .container {
     background: rgb(57, 149, 255);
     width: 100%;
@@ -107,6 +111,12 @@ REFERENCE:
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .strong-center {
+      text-align: center;
+      font-size:larger;
+      font-family: Segoe UI;
+      color:rgb(0, 0, 0)
   }
 button {
     background: orange;

@@ -1,0 +1,102 @@
+html {
+    color: white;
+}
+
+.container {
+    background: rgb(129, 129, 129);
+    width: 100%;
+    height: auto;
+    background-color: rgb(129, 129, 129);
+    box-sizing:border-box;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Make the child go to the border */
+.container>:nth-child() {
+    border:thick;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    box-sizing:border-box;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* The child must be with lot of details to border it to the limit. */
+.about>:nth-last-child() {
+    box-sizing: border-box;
+}
+
+.about-stylespage {
+    width: 100%;
+    height: auto;
+    background-color: rgb(138, 255, 4);
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(138, 255, 4);
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    background-color: rgb(122, 122, 122);
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(122, 122, 122);
+}
+
+.warning-text-strong {
+    font-family: Segoe UI;
+    color: white;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    background-color: rgb(186, 255, 121);
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(186, 255, 121); 
+}
+
+.warning-message {
+    background: #ffb171;
+    width: 100%;
+    height: 80px;
+    box-sizing:border-box;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.videomaker-center {
+    align-content: center;
+    box-align: center;
+    align-self: center;
+    display: contents;
+}
+.videomaker-content {
+    align-content: center;
+    display: none;
+    position: absolute;
+}
+.display-a-none-verict001 {
+    display: none;
+    content: none;
+}
+p {
+    font-family: Segoe UI;
+    color: Black;
+}
+strong {
+    font-family: Segoe UI;
+    color: black;
+}
+a {
+    font-family: Segoe UI;
+    color: Black;
+}
