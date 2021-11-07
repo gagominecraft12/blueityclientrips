@@ -100,3 +100,8 @@ a {
     font-family: Segoe UI;
     color: Black;
 }
+button {
+    /*Possibly. That wont be that same to school and og page. Stay tuned until we centerize it!*/
+    color:rgb(250, 167, 99);
+    font-family: Segoe UI;
+}
