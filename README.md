@@ -1,9 +1,4 @@
-BLUE'ITY CLIENT RIPS THAT WILL BE USED IN.
-
-THIS IS A REMAKE OF GA4S THAT IS USED.
-
-
-# Quick credit while forking:
+# Quick credit while forking
 
 | Credit when forking "quickest way" | Link:                       | Description:  |
 | ---------------------------------- | --------------------------- | ------------- |
@@ -11,7 +6,7 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 
 -----------------------------------
 
-# Credits:
+# Credits
 
 | Company (Name)     | Link               | Description |
 | ------------------ | ------------------ | ----------- |
@@ -25,6 +20,7 @@ THIS IS A REMAKE OF GA4S THAT IS USED.
 | -------------- | ---- | ----------- |
 | FNFMod Fandom  | https://fridaynightfunking.fandom.com/wiki/ | Some of things. |
 | FNF Fandom  | https://fridaynightfunkin.fandom.com/wiki/ | Some of things. |
+| FlatIcon       | https://www.flaticon.com/ | Some of things. |
 
 | HTML and Code Guides | Link | Description |
 | -------------------- | ---- | ----------- |
@@ -59,7 +55,7 @@ Better buttons!
 
 <strong>CHANGE GENDER TYPE:</strong>
 
-<h3>var character = "adam"; // change to "adam", "bob" , "eve" , or "rocky" depending on who you want to start with.
+```javascript var character = "adam"; // change to "adam", "bob" , "eve" , or "rocky" depending on who you want to start with.
 $('#char_creator_client').flash({
    id: "char_creator",
    swf: "https://wrapperonlineold.2epik4u.xyz/animation/414827163ad4eb60/cc.swf",
@@ -70,4 +66,5 @@ $('#char_creator_client').flash({
    allowFullScreen: "true",
    wmode: "transparent",
    hasVersion: "10.3",
-   flashvars: {"apiserver":"https://wrapperonlineold.2epik4u.xyz","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});</h3>
+   flashvars: {"apiserver":"https://wrapperonlineold.2epik4u.xyz","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});
+``
