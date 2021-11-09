@@ -1,4 +1,4 @@
-html {
+html,body {
     background: black;
 }
 anotherheader {
@@ -6,10 +6,10 @@ anotherheader {
     display:contents;
 }
 .container {
-    background: rgb(57, 149, 255);
+    background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
-    background-color: #00eeff;
+    background-color: rgb(255, 255, 255);
     box-sizing:border-box;
     margin-bottom: 4px;
     margin-top: 4px;
@@ -127,7 +127,7 @@ button {
 button:hover {
     background: white;
     color: rgb(88, 86, 86);
-    font-size: ;
+    font-size: medium 55.2px;
     font-family: Segoe UI;
 }
 sitcom-p {
