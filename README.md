@@ -1,3 +1,4 @@
+<!-- #region -->
 # Quick credit while forking
 
 | Credit when forking "quickest way" | Link:                       | Description:  |
@@ -11,24 +12,24 @@
 | Company (Name)     | Link               | Description |
 | ------------------ | ------------------ | ----------- |
 | Alvin Hung              | (twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
-| Vyond                   | (https://twitter.com/Vyond)                 | Some of LVM and Assets.  |
-| Imageny                 | (https://github.com/imageny)        | VFProxy, Other stuff.    |
-| GoTest334               | (https://github.com/GoTest334)      | VyondHoster things, something. |
+| Vyond                   | (<https://twitter.com/Vyond>)                 | Some of LVM and Assets.  |
+| Imageny                 | (<https://github.com/imageny>)        | VFProxy, Other stuff.    |
+| GoTest334               | (<https://github.com/GoTest334>)      | VyondHoster things, something. |
 | VyondHoster Team   | Cant be found due of authors deleting the site. | Original things. |
 
 | Image Credits  | Link | Description |
 | -------------- | ---- | ----------- |
-| FNFMod Fandom  | https://fridaynightfunking.fandom.com/wiki/ | Some of things. |
-| FNF Fandom  | https://fridaynightfunkin.fandom.com/wiki/ | Some of things. |
-| FlatIcon       | https://www.flaticon.com/ | Some of things. |
+| FNFMod Fandom  | <https://fridaynightfunking.fandom.com/wiki/> | Some of things. |
+| FNF Fandom  | <https://fridaynightfunkin.fandom.com/wiki/> | Some of things. |
+| FlatIcon       | <https://www.flaticon.com/> | Some of things. |
 
 | HTML and Code Guides | Link | Description |
 | -------------------- | ---- | ----------- |
-| Agernic              | https://www.agernic.com/ | HTML Code and CSS Code |
+| Agernic              | <https://www.agernic.com/> | HTML Code and CSS Code |
 
 | Painting Software    | Link | Description |
 | -------------------- | ---- | ----------  |
-| Sketchpad            | https://sketch.io/sketchpad/ | Thanks to Sketchpad for making the Blue'ity Client Rips logo. | 
+| Sketchpad            | <https://sketch.io/sketchpad/> | Thanks to Sketchpad for making the Blue'ity Client Rips logo. |
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 <!-- 
@@ -51,7 +52,7 @@ Removed the GoAnimate4Schools logo due of copyright.
 Better buttons!
  -->
 
-# Codes:
+# Codes
 
 <strong>CHANGE GENDER TYPE:</strong>
 
@@ -67,4 +68,5 @@ $('#char_creator_client').flash({
    wmode: "transparent",
    hasVersion: "10.3",
    flashvars: {"apiserver":"https://wrapperonlineold.2epik4u.xyz","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});
-``
+```
+<!-- #endregion -->
