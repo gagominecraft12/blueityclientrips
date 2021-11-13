@@ -151,8 +151,9 @@ school-p {
 thisarea {
     display: list-item; color:rgb(57, 149, 255) calc(0);
 }
-script>::after {
-    
+details {
+    color: white;
+    font-family: Segoe UI;
 }
 strong {
     font-family: Segoe UI;
