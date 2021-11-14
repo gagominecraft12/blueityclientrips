@@ -14,11 +14,51 @@ var GT = new Gettext({'locale_data': json_locale_data});
     </script>
     <!-- End a javascript things -->
     <!-- Canonical? -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate Blog">
    <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate - Recently Released Content">
    <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate - Most Watched">
    <link rel="canonical" href="https://gagominecraft12.github.io/" title="Go Back!">
     <!-- End of canonical things.-->
+    <!-- Add google analytics to make the score. --><script type="ld+json">
+            {
+                "@context": {
+                  "@vocab": "http://schema.org/",
+                  "goog": "http://schema.googleapis.com/",
+                  "resultScore": "goog:resultScore",
+                  "detailedDescription": "goog:detailedDescription",
+                  "EntitySearchResult": "goog:EntitySearchResult",
+                  "kg": "http://g.co/kg"
+                },
+                "@type": "ItemList",
+                "itemListElement": [
+                  {
+                    "@type": "EntitySearchResult",
+                    "result": {
+                      "@id": "kg:/m/0dl567",
+                      "name": "Blue'ity",
+                      "@type": [
+                        "Thing",
+                        "Person"
+                      ],
+                      "description": "Blue'ity Client Creator, Unknown",
+                      "image": {
+                        "contentUrl": "https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/7374802494fb9ea3fd42de9ef54cc3dbcd45c7c1/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg",
+                        "url": "https://gagominecraft12.github.io/gagominecraft12/",
+                        "license": "http://creativecommons.org/licenses/by-sa/2.0"
+                      },
+                      "detailedDescription": {
+                        "articleBody": "Blue'ity Client Rips is a project reserved from Wrapper: Online which possibly is a Github Pages online flash player project used on Basilisk. You can make a video over making videos with humor.",
+                        "url": "http://gagominecraft12.github.io/blueityclientrips/",
+                        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+                      },
+                      "url": "http://gagominecraft12.github.io/blueityclientrips/"
+                    },
+                    "resultScore": 4850
+                  }
+                ]
+              }
+        </script>
     
 </head>
 <header>
@@ -155,4 +195,17 @@ var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
         request.formData(getFirstRequestFormData);
         document.getElementById('videoInner');
     }
+</script><script>
+  var service_url = 'https://kgsearch.googleapis.com/v1/entities:search';
+  var params = {
+    'query': "Blue'ity Client Rips" & "Blue'ity Client",
+    'limit': 10,
+    'indent': true,
+    'key' : '<put your api_key here>',
+  };
+  $.getJSON(service_url + '?callback=?', params, function(response) {
+    $.each(response.itemListElement, function(i, element) {
+      $('<div>', {text:element['result']['name']}).appendTo(document.body);
+    });
+  });
 </script><!-- #endregion -->

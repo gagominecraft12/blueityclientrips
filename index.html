@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Blue'ity Client Rips - Homepage</title>
         <link href="https://gagominecraft12.github.io/blueityclientrips/def.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="ld+json">
+            {
+                "@context": {
+                  "@vocab": "http://schema.org/",
+                  "goog": "http://schema.googleapis.com/",
+                  "resultScore": "goog:resultScore",
+                  "detailedDescription": "goog:detailedDescription",
+                  "EntitySearchResult": "goog:EntitySearchResult",
+                  "kg": "http://g.co/kg"
+                },
+                "@type": "ItemList",
+                "itemListElement": [
+                  {
+                    "@type": "EntitySearchResult",
+                    "result": {
+                      "@id": "kg:/m/0dl567",
+                      "name": "Blue'ity",
+                      "@type": [
+                        "Thing",
+                        "Person"
+                      ],
+                      "description": "Blue'ity Client Creator, Unknown",
+                      "image": {
+                        "contentUrl": "https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/7374802494fb9ea3fd42de9ef54cc3dbcd45c7c1/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg",
+                        "url": "https://gagominecraft12.github.io/gagominecraft12/",
+                        "license": "http://creativecommons.org/licenses/by-sa/2.0"
+                      },
+                      "detailedDescription": {
+                        "articleBody": "Blue'ity Client Rips is a project reserved from Wrapper: Online which possibly is a Github Pages online flash player project used on Basilisk. You can make a video over making videos with humor.",
+                        "url": "http://gagominecraft12.github.io/blueityclientrips/",
+                        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+                      },
+                      "url": "http://gagominecraft12.github.io/blueityclientrips/"
+                    },
+                    "resultScore": 4850
+                  }
+                ]
+              }
+        </script>
     </head>
     <body>
         <script src="light.js"></script>
@@ -54,7 +97,20 @@
 
         <img src="https://gagominecraft12.github.io/blueityclientrips/extra/gif/Boyfriend_crying.gif">Boyfreind is crying :(</img>
     </noscript>
-</html>
+</html><script>
+    var service_url = 'https://kgsearch.googleapis.com/v1/entities:search';
+    var params = {
+      'query': "Blue'ity Client Rips" & "Blue'ity Client",
+      'limit': 10,
+      'indent': true,
+      'key' : '<put your api_key here>',
+    };
+    $.getJSON(service_url + '?callback=?', params, function(response) {
+      $.each(response.itemListElement, function(i, element) {
+        $('<div>', {text:element['result']['name']}).appendTo(document.body);
+      });
+    });
+  </script>
 
 <style>
     p {

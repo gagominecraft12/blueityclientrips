@@ -167,3 +167,16 @@ wrning-mssagetext {
     font-family: Segoe UI;
     color: white;
 }
+noscript {
+    background-color: black;
+}
+noscript .safearea {
+    background-color: black;
+    display: table;
+}
+div .table {
+    background-color: black;
+    display: table;
+    caption-side: calc(0.2 = 5);
+    color-interpolation-filters: sRGB;
+}

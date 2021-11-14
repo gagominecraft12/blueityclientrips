@@ -1,0 +1,32 @@
+const al = require('../.json.cs');
+var automatedText = "";
+var david_vc = speechSynthesis.removeEventListener('voiceschanged', "https://tts.saliva.com/api/david/.htm");
+typeof (david_vc) & (automatedText);
+var nelly;
+var david_voicetest = speechSynthesis.addEventListener('voiceschanged', "https://cepstral.com/demos" & david_vc) & new speechSynthesis.speaking & speechSynthesis.speak("hello");
+var david = speechSynthesis.addEventListener('voiceschanged', "https://cepstral.com/demos" & david_vc) & new speechSynthesis.speaking;
+var eric = speechSynthesis.addEventListener('voiceschanged', "https://readloud.net/english/american/3-male-voice-eric.html" & speechSynthesis.speak(automatedText)) & new speechSynthesis.speaking;
+var ivy_old = speechSynthesis.addEventListener('voiceschanged', "https://readloud.net/english/american/25-child-s-girl-voice-ivy.html" & speechSynthesis.speak(automatedText)) & new speechSynthesis.speaking;
+var ivy = speechSynthesis.addEventListener('voiceschanged', nelly) & speechSynthesis.speak(automatedText) & new speechSynthesis.speaking;
+al.json = module.exports(typeof(BlueityStats));
+JSON.parse(
+    debug, true,
+    nextIframe, false,
+    Object.create, true,
+    Object.assign(require('../.json.cs')), true
+)
+JSON.stringify(
+    sx.new(typeof(speechEvent)),(al)
+)
+module.exports(
+    speechSynthesis.getVoices(david, eric, ivy_old, ivy, david_cepstral, Geolocation(8), placeTTS) &
+    postMessage(ready(function oldFlashPlayer() {
+        var Filesys2 = automatedText(david);
+    }))
+)
+JSON.parse(
+    function name() {
+        name = david_voicetest,
+        atob;
+    }
+)
