@@ -180,3 +180,15 @@ div .table {
     caption-side: calc(0.2 = 5);
     color-interpolation-filters: sRGB;
 }
+footer {
+    background-color: gray;
+    display:table;
+}
+a {
+    font-family: Segoe UI;
+    color:rgb(255, 255, 255)
+}
+br {
+    font-family: Segoe UI;
+    color:rgb(255, 255, 255)
+}

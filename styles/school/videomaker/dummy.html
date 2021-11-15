@@ -123,8 +123,23 @@ GA_googleFetchAds();
     </script>
 
 <script type="text/javascript">
+  if (typeof window.fbAsyncInit) {
+    window.fbAsyncInit = window.fbAsyncInit || {};
+  }
     window.fbAsyncInit = function() {
+      var FB = FB || {};
+      var facebook = facebook || {};
+      if (typeof FB.init) {
+        FB.init = {};
+      }
       FB.init({appId: '177116303202', cookie: true, status: true, xfbml: true});
+      if (typeof facebook === "undefined") {
+        facebook = {};
+      }
+      if (typeof facebook.init === "undefined") {
+        facebook.init = {};
+      }
+      
       jQuery(document).ready(function() {
         jQuery(document).trigger('facebook.init');
       });
@@ -183,4 +198,49 @@ GA_googleFetchAds();
 </script><script id="business.xml">// Reminder: This is complied with the GoAniFire Assets.
 filesystem.root = 'https://github.com/GoAniFire/GoAniFire-Assets/tree/master/store/3a981f5cb2739137/business';
 xmlRequest.responseURL = 'https://raw.githubusercontent.com/GoAniFire/GoAniFire-Assets/master/store/3a981f5cb2739137/business/theme.xml';
+</script><script id="family.xml">// Reminder: This is complied with the GoAniFire Assets.
+filesystem.root = 'https://github.com/GoAniFire/GoAniFire-Assets/tree/master/store/3a981f5cb2739137/custom';
+xmlRequest.responseURL = 'https://raw.githubusercontent.com/GoAniFire/GoAniFire-Assets/master/store/3a981f5cb2739137/custom/theme.xml';
+</script><script id="functions.ld.bluedata.js">// Reminder: Dont copy those things.
+  var msg = msg || {};
+  var box = box || {};
+  var uniteMsgBoxes =  box || {};
+  var videomakerView = '<?xml version="1.0" encoding="utf-8"> <videomaker version="1.0-blueitymodded"><head></head><body><div id="loading"><img src=tmpUrlPath_loading alt="<lgo class="ga_logotxt" alt="GoAnimate">GoAnimate</lgo> <br> <strong alt="Loading. <br anim="true"> .. <br anim="true" class="animation"> ... <br> .. <br> .">Loading..</strong>"></img><</div><container version="1.0"><img src=tmp_url_1 alt=""</img> <br>  <button onclick="previewVideo()">Preview</button> <br> <button onclick="saveVideo()">Save</button> <details class="options" id="options_btn"> <br>  <frst class="next" id="final"></frst> <vbox view="sync()" onclick="show_options">...</vbox></details></container><table><div class="video_scroll"><table></table></div> <body></body> <footer><length id="max-length" class="length" min="0" max="10000000000000000000000000000000000000000000000000000"><table><p>Length:</p> <details><div><option name="1"><input type="checkbox"> <med>Turn on audio-wave (Experimental.)</med></option></div></details></table></length></footer></table></body></videomaker>'
+  var Boolean = Boolean || {};
+  var Booleanmsg = Boolean.msg || {};
+  var fstInit = "<p>The Videomaker may not work on android (Puffin) if you are using this. It may have errors or bad things.</p>"
+  
+  if (typeof msg) {
+    rbg12 = {
+      Boolean = rbg12(),
+    };
+  }
+  if (typeof Boolean.msg) {
+    Boolean.msg = {
+      Boolean = msg(),
+    };
+  }
+  if (typeof Boolean.box) {
+    Boolean.box = {
+      Map(box);
+    };
+  }
+</script><script id="videomakerMessages.ld.js">
+  var blueityFunctions = blueityFunctions || {};
+  if (typeof blueityFunctions) {
+    blueityFunctions = {};
+  }
+  if (typeof blueityFunctions.videomakerMesage.cantimport_404) {
+      blueityFunctions.videomakerMessages.cantimport_404 = {
+        content: msg + "<xml><msg><p>You can't import a asset format with a unknown suffix. It can be formatted <strong>jpeg, jpg, png, pneg</strong></p></msg></xml>",
+      };
+    }
+  if (typeof blueityFunctions.videomakerMessages) {
+    blueityFunctions.videomakerMessages = {};
+  }
+
+  module.exports = function EveryBox() {
+    Boolean: blueityFunctions.videomakerMessages.cantimport_404
+    XMLDocument: videomakerView
+  }
 </script><!-- #endregion -->
