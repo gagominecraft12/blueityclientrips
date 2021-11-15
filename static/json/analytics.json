@@ -1,0 +1,37 @@
+{
+    "@context": {
+      "@vocab": "http://schema.org/",
+      "goog": "http://schema.googleapis.com/",
+      "resultScore": "goog:resultScore",
+      "detailedDescription": "goog:detailedDescription",
+      "EntitySearchResult": "goog:EntitySearchResult",
+      "kg": "http://g.co/kg"
+    },
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "EntitySearchResult",
+        "result": {
+          "@id": "kg:/m/0dl567",
+          "name": "Blue'ity",
+          "@type": [
+            "Thing",
+            "Person"
+          ],
+          "description": "Blue'ity Client Creator, Unknown",
+          "image": {
+            "contentUrl": "https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/7374802494fb9ea3fd42de9ef54cc3dbcd45c7c1/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg",
+            "url": "https://gagominecraft12.github.io/gagominecraft12/",
+            "license": "http://creativecommons.org/licenses/by-sa/2.0"
+          },
+          "detailedDescription": {
+            "articleBody": "Blue'ity Client Rips is a project reserved from Wrapper: Online which possibly is a Github Pages online flash player project used on Basilisk. You can make a video over making videos with humor.",
+            "url": "http://gagominecraft12.github.io/blueityclientrips/",
+            "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+          },
+          "url": "http://gagominecraft12.github.io/blueityclientrips/"
+        },
+        "resultScore": 4850
+      }
+    ]
+  }

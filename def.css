@@ -196,3 +196,10 @@ bluefootermsg {
     font-family: Segoe UI;
     color: white;
 }
+noscript {
+    background-color: black;
+}
+a:link {
+    color: white;
+    font-family: Segoe UI;
+}
