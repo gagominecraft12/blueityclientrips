@@ -1,0 +1,52 @@
+videomaker {
+    background-color: rgb(201, 201, 201);
+    display: table;
+    color: black;
+    width: 1500px;
+    height: 500px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+studio {
+    background-color: rgb(77, 77, 77);
+    width: 1000px;
+    height: 700px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div #loading {
+    background-color: cadetblue;
+    display: table-cell;
+    color: white;
+}
+#loadingIcon {
+    width: 50px;
+    height: 50px;
+    line-gap-override: false;
+    content: url(https://d3v4eglovri8yt.cloudfront.net/static/b28166a76bb4f831/go/img/studio/spin.svg);
+}
+
+header {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: grey;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: grey;
+}
+
+#ga_logotxt {
+    width: 200px;
+    height: 75px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Vyond_2018.svg/245px-Vyond_2018.svg.png);
+}
+
+/* Contents */
+
+@font-face {
+    font-family: Segoe UI;
+    src: url();
+}
