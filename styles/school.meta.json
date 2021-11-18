@@ -14,11 +14,23 @@
             "statusCode": 400,
             "content": ""
         },
+        "/visualeffectssfxsnds": {
+            "statusCode": 400,
+            "content": ""  
+        },
         "/goapi/getText2SpeechVoices": {
             "statusCode": 400,
             "content": ""
         },
+        "/goapi/import": {
+            "statusCode": "400",
+            "content": ""
+        },
         "/waffle/getFileFromSWF.js": {
+            "statusCode": 400,
+            "content": ""
+        },
+        "/blueResources/template/storyboard.pdf": {
             "statusCode": 400,
             "content": ""
         },
