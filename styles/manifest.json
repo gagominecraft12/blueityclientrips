@@ -1,0 +1,12 @@
+{
+    "import": "../",
+    "$schema": "http://json-schema.org/draft-04/schema"
+,
+    "crude_manifest": {
+        "manifest": {
+            "version": 4,
+            "modules": "node, fs, querystring, h, a, recommended, lime, flixel",
+            "$modules": "http://npmjs.com/package/"
+        }
+    }
+}
