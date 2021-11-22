@@ -48,13 +48,10 @@ Reference:
 
 <!-- 
 Update:
-Removed the GoAnimate4Schools logo due of copyright.
-Better buttons!
+Added more info.
  -->
 
-# Codes
-
-<strong>CHANGE GENDER TYPE:</strong>
+# Codes - Change gender type
 
 ```javascript var character = "adam"; // change to "adam", "bob" , "eve" , or "rocky" depending on who you want to start with.
 $('#char_creator_client').flash({
@@ -67,6 +64,6 @@ $('#char_creator_client').flash({
    allowFullScreen: "true",
    wmode: "transparent",
    hasVersion: "10.3",
-   flashvars: {"apiserver":"https://wrapperonlineold.2epik4u.xyz","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});
+   flashvars: {"apiserver":"/","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https://wrapperonlineold.2epik4u.xyz/store/3a981f5cb2739137<store>","clientThemePath":"https://wrapperonlineold.2epik4u.xyz/store/ad44370a650793d9\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","original_asset_id":"(ID)","themeId":"family","ut":30}});
 ```
 <!-- #endregion -->

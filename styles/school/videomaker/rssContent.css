@@ -1,0 +1,33 @@
+#videomaker {
+    display: contents;
+
+    content: url(./source/icons.as);
+
+    /* why the fuck you dont take a nap stop editing that it's made for entertainemt purposes. */
+
+    width: 1280;
+    height: 720;
+
+    max-width: 3840;
+    max-height: 2160;
+
+
+}
+#loading {
+    display: table-caption;
+    content: url();
+}
+#char_creator {
+    width: 1280;
+    height: 720;
+
+    max-width: 3840;
+    max-height: 2160;
+}
+#char_browser {
+    width: 1280;
+    height: 720;
+
+    max-width: 3840;
+    max-height: 2160;
+}

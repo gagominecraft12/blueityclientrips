@@ -166,6 +166,13 @@ strong>::after {
     font-family: Segoe UI;
     color: white;
 }
+fieldset {
+    background-color: rgb(187, 187, 187);
+    background-position: center;
+}
+manticon {
+    content: url(./static/svg/403icons/Drawing.sketchpad.svg);
+}
 wrning-mssagetext {
     font-family: Segoe UI;
     color: white;

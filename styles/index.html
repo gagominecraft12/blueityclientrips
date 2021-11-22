@@ -22,6 +22,18 @@
         <button id="school" onclick="window.location.href = './school/index.html'">School</button>
         <button id="silver" onclick="window.location.href = './silver/index.html'">Silver</button>
     </div>
+
+    <form action="/dta-videomaker_btns" method="get" style="content: url(./goapi/getContent.js);">
+        <script>
+            module.exports = function(){
+                if (document.embeds.item($('#videomaker').show()).name) {
+                    length(8);
+                } else {
+                    length(9);
+                }
+            }
+        </script>
+    </form>
 </body>
 </html>
 <style id="style" type="text/css">
