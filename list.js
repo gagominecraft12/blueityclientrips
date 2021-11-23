@@ -1,3 +1,7 @@
+/* MOVED TO ./list.html */
+
+/* Old ver. */
+
 const headerGoFull = require('./go_full.header.js');
 const knownClass = {
 	$(flash) {

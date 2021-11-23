@@ -22,8 +22,11 @@ if (temp != null)
 {
     temp(10);
 }
-
 else
 {
     ascii = false
 }
+
+n_system_monitor_97892_64
+
+IO.k12Account[toofunky];
