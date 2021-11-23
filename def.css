@@ -19,7 +19,15 @@ anotherheader {
     display:contents;
 }
 .container {
-c
+    background: rgb(190, 190, 190);
+    width: 100%;
+    height: auto;
+    background-color: rgb(190, 190, 190);
+    box-sizing:border-box;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* Make the child go to the border */
 .container>:nth-child() {
