@@ -194,6 +194,15 @@ footer {
     background-color: gray;
     display:table;
 }
+table {
+    display: table;
+    background-color: honeydew;
+    border: 1px solid;
+}
+td { 
+    color: White;
+    font-family: Verdana;
+}
 a {
     font-family: Segoe UI;
     color:rgb(255, 255, 255)

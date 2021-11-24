@@ -63,7 +63,7 @@ var GT = new Gettext({'locale_data': json_locale_data});
 </head>
 <header>
     <div class="container">
-        <logo-blueityclientrips></logo-blueityclientrips> <button style="left: 10px;" onclick="window.location.href = './styles/videomaker.html'">Make a video</button>
+        <logo-blueityclientrips></logo-blueityclientrips> <button style="left: 10px;" onclick="window.location.href = './styles/videomaker.html'">Make a video</button> <button href="/upload">Upload a Movie</button>
     </div>
     <div class="warning-message">
         <p>Sorry for just taking too much seriously. for my time. <strong style="color: red;">ITS NOT FINISHED. IT WILL NOT APPEAR YOUR VIDEOS.</strong></p>
@@ -72,12 +72,32 @@ var GT = new Gettext({'locale_data': json_locale_data});
 <body>
     <button id="videolistShowing_unf" onclick="xmlVideolistRequest();">Show Videolist (unfinished yet!)</button>
     <table id="videoInner">
-        <img src="">hello</img>
+        <tr>
+            <td>Video Uploaded:</td>
+        </tr>
+
+        <tr>
+            <td title="introduction" style="color: white;">Blue'ity Client Rips Demo</td>
+
+<br>
+
+            <td title="${movie_title}">Blue'ity Client Rips Video</td>
+        </tr>
     </table>
 </body>
 <footer>
     <button onclick="window.location.href='./index.html'">Go Back</button> <button onclick="window.location.href = 'https://github.com/gagominecraft12/blueityclientrips'">Source Code</button> <button onclick="window.location.href='./server_d.html'">Discord Servers</button> <button onclick='gagominecraft12.github.io/gagominecraft12/index.html'>Blue'ity Page</button>
 </footer>
+
+
+<form action="/upload" method="post">
+    <input type="file" accept="*.xml">
+</form>
+<form action="/play" method="get" style="display: none;">
+    <script>
+        window.open(`${movie_id}`);
+    </script>
+</form>
 </html>
 <style>
     p {
@@ -188,8 +208,16 @@ document.onclick(msg(
 <script src="https://sageawesomegoanipicscope9865.github.io/old-goanimate-files/Gettext.js.download"></script>
 <script type="text/javascript" src="https://sageawesomegoanipicscope9865.github.io/old-goanimate-files/goserver_js-en_US.json"></script>
 <script type="text/javascript" id="appearAVideo">
+
+    // html things
+    var cstmvideo = document.getElementById('video_cstm');
+    var movie_id = console.count(0, 1);
+    // break
+    var text = new Text();
+    var face = new FontFace();
     var xmlRequest = new XMLHttpRequest(req);
     var http = require('http');
+    var number = new Number();
     var fu = document.getElementById(script);
     var request = new Request();
     var cachè = new Cache();
@@ -226,4 +254,51 @@ document.onclick(msg(
       $('<div>', {text:element['result']['name']}).appendTo(document.body);
     });
   });
+</script><script>
+    // uhh baby i need to just add a thing more.
+
+    module.exports = function showVideoList() {
+
+        switch (jQuery.get, jQuery.parseXML) {
+            case '/uploaded':
+                var XMLcdatasection = XML.onload & XML.createCDATASection({
+                    upload_date: `${Date.now()}`,
+                    fontsused: `${face.style()}`,
+                    title: `${text.textContent()}`,
+                })
+                break;
+
+            case '/upload':
+                document.onsubmit(cstmvideo);
+                break;
+
+            case '/play':
+                if (document.onclick(window.open(`${movie_id}`, width=854, height=480))) {
+                    
+                }
+                break;
+
+            case '/posted':
+                // a registry from a movie creation date which came from the movie being uploaded
+                class postMovie {
+                    "enum"; "break"   
+                }
+                // just a manual movie creation date that comes from the movie being uploaded
+                function uploaded() {
+                    if (postMessage(XMLcdatasection)) {
+                        `
+                        switch (jQuery.get) {
+                            case "/videomakerdta_registry":
+                                
+                                break;
+
+                        }
+                        `
+                    } else {
+                        
+                    }
+                }
+                break;
+        }
+    }
 </script><!-- #endregion -->
