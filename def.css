@@ -132,15 +132,31 @@ REFERENCE:
       color:rgb(0, 0, 0)
   }
 button {
+    border: 0px;
     background: orange;
     color: white;
     shape-outside: dummy;
     font-family: Segoe UI;
 }
 button:hover {
+    border: 1px;
     background: white;
-    color: rgb(88, 86, 86);
+    color: rgb(184, 184, 184);
     font-size: medium 55.2px;
+    font-family: Segoe UI;
+}
+#btn-blue {
+    border: 0px;
+    background: rgb(0, 132, 255);
+    color: white;
+    shape-outside: dummy;
+    font-family: Segoe UI;
+}
+#btn-blue:hover {
+    border: 1px;
+    background: rgb(126, 193, 255);
+    color: rgb(184, 184, 184);
+    shape-outside: dummy;
     font-family: Segoe UI;
 }
 sitcom-p {
@@ -200,8 +216,11 @@ table {
     border: 1px solid;
 }
 td { 
-    color: White;
+    color: rgb(0, 0, 0);
     font-family: Verdana;
+}
+tr {
+    background-color: gray;
 }
 a {
     font-family: Segoe UI;
