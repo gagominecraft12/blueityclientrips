@@ -3,6 +3,7 @@ var randomnumber = Math.random(1);
 var audio = new(Audio);
 var stream =  new(MediaStream);
 var xmlDoc = new(XMLDocument);
+var sync = generate().words;
 var node = new(Node);
 var save = document.onerror(console.error("Blue'ity error:" + randomnumber).free) + xmlDoc.releaseEvents("type", xmlDoc.open("./data/movie-" + randomnumber + ".xml"))
 var go = require('../module.json');
@@ -32,7 +33,7 @@ switch (request.clone, request.method("GET")) {
 
         document.onload(
             xmlDoc.createCDATASection({
-                title: 
+                sync,
             })
         );
         break;
