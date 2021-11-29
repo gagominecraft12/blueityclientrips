@@ -16,7 +16,6 @@ logo-blueityclientrips {
 }
 logo-blueityclientrips:hover {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
-    margin:0;
 }
 #logo {
     float: left;
@@ -36,7 +35,6 @@ span logo-blueityclientrips {
 }
 span logo-blueityclientrips:hover {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
-    margin:0;
 }
 anotherheader {
     background:rgb(204, 204, 204);
