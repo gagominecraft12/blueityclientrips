@@ -18,14 +18,12 @@ logo-blueityclientrips:hover {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
 }
 #logo {
-    float: left;
 	margin-left: 10px;
 	margin-top: 4px;
 	height: 61px;
 }
 #logo:hover {
-    float: left;
-	margin-left: 10.05px;
+	margin-left: 10px;
 	margin-top: 4px;
 	height: 61px;
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
