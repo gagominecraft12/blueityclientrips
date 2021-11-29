@@ -14,6 +14,30 @@ chardialouge-oswald {
 logo-blueityclientrips {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg");
 }
+logo-blueityclientrips:hover {
+    content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
+    margin:0;
+}
+#logo {
+    float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	height: 61px;
+}
+#logo:hover {
+    float: left;
+	margin-left: 10.05px;
+	margin-top: 4px;
+	height: 61px;
+    content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
+}
+span logo-blueityclientrips {
+    content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg");
+}
+span logo-blueityclientrips:hover {
+    content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
+    margin:0;
+}
 anotherheader {
     background:rgb(204, 204, 204);
     display:contents;

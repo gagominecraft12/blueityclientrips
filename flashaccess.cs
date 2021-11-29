@@ -25,7 +25,7 @@ bool k12Account = this.domain="https://gagominecraft12.github.io/blueityclientri
 
 bool EnableaccessfromFlash = this.program="flashplayer_32_sa.exe";
 
-bool EnableFullscreenMode = this.program="flashplayer_32_sa.exe";
+bool EnableFullscreenMode = this.program="./flashplayer_32_sa.exe";
 
 Enableaccessfromflash = true;
 
