@@ -1,5 +1,8 @@
 html,body {
-    background: black;
+    background: linear-gradient(to bottom, #0021b4, #0011ff);
+}
+blockelement#grass {
+    display: none;
 }
 oswaldfonthahahaaha {
     font-family: 'Oswald';
@@ -11,6 +14,9 @@ chardialouge-oswald {
     /* amogus */
     color: white;
 }
+div.grass {
+    background-image: linear-gradient(to bottom, #00ff42, #7cd700, #97b000, #9b8c00, #906b17);
+}
 logo-blueityclientrips {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad%20(1).svg");
 }
@@ -18,13 +24,15 @@ logo-blueityclientrips:hover {
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
 }
 #logo {
+    float: left top;
 	margin-left: 10px;
-	margin-top: 4px;
+	margin-top: -1px;
 	height: 61px;
 }
 #logo:hover {
+    float: left top;
 	margin-left: 10px;
-	margin-top: 4px;
+	margin-top: -0.8px;
 	height: 61px;
     content: url("https://raw.githubusercontent.com/gagominecraft12/blueityclientrips/master/static/img/6efbe41d-cfe8-401e-9d02-ed3e0127c5d7.sketchpad.svg");
 }
@@ -39,15 +47,19 @@ anotherheader {
     display:contents;
 }
 .container {
-    background: rgb(190, 190, 190);
-    width: 100%;
-    height: auto;
-    background-color: rgb(190, 190, 190);
-    box-sizing:border-box;
+    /* Update from 12/2/2021: We removed the tutorial version of the container as from no-asking. We changed it as of to add a Blue'ity Version. Be hype and be safe! */
+    border:thick;
+    box-sizing: border-box;
     margin-bottom: 4px;
-    margin-top: 4px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: auto 0.2vh 1pc;
+    float: top;
+    margin-top: 4px 0.2vh;
+    margin-right: 150px;
+    margin-left: 150px 2vh 6pc;
+    width: 100%;
+    height: 7%;
+    box-shadow: #3b3b3b 50px solid;
+    background-color: #0011ff;
 }
 /* Make the child go to the border */
 .container>:nth-child() {

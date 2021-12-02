@@ -73,7 +73,8 @@ var GT = new Gettext({'locale_data': json_locale_data});
     </div>
 </header>
 <body>
-    <button id="videolistShowing_unf" onclick="xmlVideolistRequest();">Show Videolist (unfinished yet!)</button>
+    <!--
+            <button id="videolistShowing_unf" onclick="xmlVideolistRequest();">Show Videolist (unfinished yet!)</button>
     <table id="videoInner">
         <tr>
             <td>Video Uploaded:</td>
@@ -87,6 +88,7 @@ var GT = new Gettext({'locale_data': json_locale_data});
             <td title="${movie_title}">Blue'ity Client Rips Video</td>
         </tr>
     </table>
+    -->
 </body>
 <footer>
     <button onclick="window.location.href='./index.html'">Go Back</button> <button onclick="window.location.href = 'https://github.com/gagominecraft12/blueityclientrips'">Source Code</button> <button onclick="window.location.href='./server_d.html'">Discord Servers</button> <button onclick='gagominecraft12.github.io/gagominecraft12/index.html'>Blue'ity Page</button>
@@ -259,18 +261,32 @@ document.onclick(msg(
   });
 </script><script>
     // uhh baby i need to just add a thing more.
+    var skeleton = skeleton || {};
+    if (typeof(skeleton.parse) === undefined) {skeleton.parse = addEventListener(parser, "adam", "eve", "bob" != undefined, "rocky"); + {}};
+    if (typeof(skeleton.title === undefined)) {skeleton.title = new(HTMLTitleElement).element = "<td></td>" + {htmlview: true, visiable=1}};
+
+    
+
 
     module.exports = function showVideoList() {
 
-        switch (jQuery.get, jQuery.parseXML) {
+        switch (jQuery.get, jQuery.parseXML, jQuery.post) {
             case '/uploaded':
+                /*
                 var XMLcdatasection = XML.onload & XML.createCDATASection({
                     upload_date: `${Date.now()}`,
                     fontsused: `${face.style()}`,
                     title: `${text.textContent()}`,
                 })
-                break;
+                */
+                var docu = new DOMParser().parseFromString('<?xml version="1.0" encoding="UTF-8"?> <xml></xml>', 'application/xml')
 
+                var cdata = docu.createCDATASection(`<title>`, skeleton.title({keycode: generatedTitle}) , `</title>`, `<characters>`, skeleton.parse(skeleton.secret.hackermode(active)) `</characters>`);
+
+                docu.getElementsByTagName('xml')[0].appendChild(cdata);
+
+                alert(new XMLSerializer().serializeToString(docu));
+               break;
             case '/upload':
                 document.onsubmit(cstmvideo);
                 document.onchange(cstmvideo);
@@ -281,6 +297,12 @@ document.onclick(msg(
                     
                 }
                 break;
+
+            case '/list/load':
+               xmlRequest.open("GET", "/list/load")
+                case '/list/load.json':
+                    xmlRequest.open("GET", "https://www.sevenrooms.com/direct/reservation-request/maddoxclub/table/load.xml" | URL)
+                    break;
 
             case '/posted':
                 // a registry from a movie creation date which came from the movie being uploaded
