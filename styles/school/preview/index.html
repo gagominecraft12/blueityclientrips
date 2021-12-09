@@ -1,47 +1,12 @@
-<!-- #region --><meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Make a video with Blue'ity Client for Schools! Make Grounded Videos! Make lot of stuff!"><!-- Collect VYOND Data -->
-<script src="../../../crossdomain.xml"></script>
-<script src="../../../ajax/previewText2Video"></script>
-<script src="../../../ajax/fixFlashiFrame"></script>
-<script src="../../../ajax/cookie_policy"></script>
-<meta name="go_schooldata" 
-dir="ltr"
-data-dir="/school/" + "../"
-data-schoolName="freddyyes4"
-data-name="?"
-data-is1YearOldGoogle?="true" 
-data-name="?-596867356" 
-data-mode="school"
-/>
-    <!-- Canonical? -->
-    <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate Blog">
-   <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate - Recently Released Content">
-   <link rel="alternate" href="https://discord.gg/2CCt2bE" type="application/rss+xml" title="GoAnimate - Most Watched">
-   <link rel="canonical" href="https://gagominecraft12.github.io/" title="Go Back!">
-   <link rel="alternate" href="../../../index.html" type="application/rss+xml" title="Blue'ity Client Rips Page!">
-    <!-- End of canonical things.-->
-<script id="luadata.lua" type="text/lua">
-    local msg > box = local box = isRoundy = true;
-    local msg = return msg;
-    msg = 'Imported!' return true;
-    msg = 'Succesfully Saved!' return true;
-    msg = 'You are grounded!' return true;
-    msg = 'Importing Failed! Indifficult Format' return true assert(v[, msg]);
-</script>
-<script id="dummy.json" type="application/json">
-    {
-        "SAMPLE": {
-            "content.json": {
-                "statusCode": 400,
-                "content": "{"content": "{ "ERROR": 404, "MSG": "not found"}"}"
-            }
-        }
-    }
-</script>
-<script type="application/exe" src="../../../flashplayer_32_sa.exe" nonce="async" async></script>
-<script type="application/json" src="https://ga.vyond.com/static/go/po/goserver_js-en_US.json"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+
+    <script type="application/json" src="https://ga.vyond.com/static/go/po/goserver_js-en_US.json"></script>
     <script src="https://ga.vyond.com/static/go/js/lib/html5shiv.js"></script>
     <script src="https://ga.vyond.com/static/static/642cd772aad8e952/school/js/common_combined.js.gz.js"></script>
     <script type="text/javascript" src="https://ga.vyond.com/static/go/po/goserver_js-en_US.json"></script>
@@ -179,25 +144,31 @@ GA_googleFetchAds();
     var i_kissmetrics = require('http://i.kissmetrics.com/i.js');
     _kms('http://doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
   </script>
+</head>
+<body>
+    <header class="container">
+        <logo-blueityclientrips></logo-blueityclientrips>
+    </header>
 
-
-<!--End of collecting VYOND data.-->
-<!-- Start making things to function. (unfinished) -->
-<header class="container" stretch="fill">
-  <a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>
-</div>
-<header class="warning-message">
-  <p style="color: white;">The embed version is used</p>
-  <details>
-    <div>
-      <strong style="font-family: Segoe UI; color: yellow; text-align: center;">Warning: Spoilers!</strong>
-
-
-      <p style="font-family: Segoe UI; color: white;">Also. i tried to use xml with javascript to finally work. Its in beta. So you can't do anything yet!</p>
+    <div class="preview">
+      <div id="preview_popup_container" style="display:none">
+        <div id="preview_popup">
+          <h2 id="preview-video">Preview Video</h2>
+          <p class="close-button" onclick="hidePreviewer()">X</p>
+          <object data="https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/player.swf" type="application/x-shockwave-flash" id="preview_player">
+            <!-- The flashvars are a huge mess, have fun looking at them. :) -->
+            <param name="flashvars" value="apiserver=https://vyond2018.herokuapp.com/&storePath=https://josephcrosmanplays532.github.io/static/store/<store>&isEmbed=1&ctc=go&ut=60&bs=default&appCode=go&page=&siteId=go&lid=13&isLogin=Y&retut=1&clientThemePath=https://josephcrosmanplays532.github.io/static/<client_theme>&themeId=custom&tlang=en_US&isInitFromExternal=1&goteam_draft_only=1&isWide=1&collab=0&startFrame=previewStartFrame&autostart=1&nextUrl=../pages/html/list.html&tray=custom">
+            <param name="allowScriptAccess" value="always">
+            <param name="allowFullScreen" value="true">
+          </object>
+                      <a class="button_big" href="#" onclick="hidePreviewer()">Back to editing</a>
+          <a class="button_big" href="#" onclick="saveVideo()">Save now</a>
+        </div>
+      </div>
     </div>
-  </details>
-</header>
-<embed src="./face1/view.html" data-name="videomaker" id="videomaker" style="width: 1280; height: 720;"/> <script id="custom.xml">
+</body>
+</html>
+<script id="custom.xml">
     var xmlRequest = new XMLHttpRequest(req);
     var http = require('http');
     var fu = document.getElementById(script);
@@ -270,4 +241,4 @@ xmlRequest.responseURL = 'https://raw.githubusercontent.com/GoAniFire/GoAniFire-
   console.error(error_a100  +  moonwalkapi_registerfailed);
 </script> <form action="/saveCharacter">
   <script async src='../../../../save.js' nonce=""></script>
-</form><!-- #endregion -->
+</form>

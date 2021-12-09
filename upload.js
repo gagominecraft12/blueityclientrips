@@ -1,20 +1,30 @@
-const formidable = require('formidable');
-const parse = require('../data/parse');
-const fUtil = require('../fileUtil');
-const fs = require('fs');
+var main = require("main.js");
+var url = new URL();
+var server = url.hostname(`/`);
 
-module.exports = function (req, res, url) {
-	if (req.method != 'POST' || url.path != '/upload_character') return;
-	new formidable.IncomingForm().parse(req, (e, f, files) => {
-		const path = files.import.path, buffer = fs.readFileSync(path);
-		const numId = fUtil.getNextFileId('char-', '.xml');
-		parse.unpackCharXml(buffer, numId);
-		fs.unlinkSync(path);
+var version = "1.0";
 
-		res.statusCode = 302;
-		const url = `/cc?themeId=family&original_asset_id=c-${numId}`
-		res.setHeader('Location', url);
-		res.end();
-	});
-	return true;
+const information = information || [];
+const Content = Content || [];
+
+
+information.startsWith = undefined;
+
+if (atob({char: `${Math.abs = 1 + Math.random()}`})) {
+	JSON.parse(
+		{
+			"movie": {
+				"@name": "Demo",
+				"@id": "m-0001",
+				"@countrypervoice": "justin:us, brian:uk, ivy:us",
+				"@voices": "justin, brian, ivy",
+				"music": "",
+				"transcript": 'Justin:Are you tired from the Wrapper Offline?, Justin:Use,Justin: Blueity Client Rips!'
+			}
+		}
+	)
+}
+
+if (atob({"movie": {"@name": "m-0001"}})) {
+	Content.execute("/movies/example.xml", { "data": {"movie": "@id="}});
 }

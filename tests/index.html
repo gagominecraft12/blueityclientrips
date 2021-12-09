@@ -22,6 +22,8 @@
   data-name="?-596867356" 
   data-mode="school" data-overflow="show" scheme="red flashes blue"
   />
+  <link rel="dns-prefetch" href="/" />
+  <link rel="dns-prefetch" href="//lightspeed.goanimate.com" />
   <script src="https://polyfill.io/v3/polyfill.js?version=3.108.0&callback=blueityfunctions.load%28%22https%3A%2F%2Fcdn.polyfill.io%22%29%3B+&features=es2015%2Ces2019%2Ces2017" charset="utf-8" async></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="application/ld+json" src="./static/json/analytics.json"></script>
@@ -85,7 +87,7 @@
 
     <div class="center">
   <header class="container">
-    <a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>
+    <span><a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a></span>
   </header>
 
   <div class="about">
@@ -123,6 +125,8 @@
       style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo
   una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento ShareALike
     4.0 Internacional</a>.
+
+    <p>Today is: <p id="timer"></p> </p>
   </div>
 </div>
 </body>
@@ -180,5 +184,8 @@
     color: Segoe UI;
   }
 </style>
+<script>
+document.getElementById("timer").innerHTML = Date.now();
+</script>
 
 <!-- good job codeswing you killed my project -->
