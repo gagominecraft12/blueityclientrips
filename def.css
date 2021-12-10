@@ -21,7 +21,7 @@ logo-blueityclientrips {
     float: left right top;
     height: 61px;
     margin: 0;
-    content: url("/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad\ \(1\).svg");
+    content: url("/static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad (1).svg");
 }
 logo-blueityclientrips:hover {
     float: left top;
@@ -43,14 +43,14 @@ logo-blueityclientrips:hover {
     */
 	height: 61px;
     margin: 0;
-    content: url("./static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad(1).svg");
+    content: url("./static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad (1).svg");
 }
 #school #logo {
     float: left top;
     height: 61px;
     margin-left: 10px;
     margin-top: -0.8px;
-    content:url("./static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad\ \(1\).svg")
+    content:url("./static/img/0ccfc131-9b98-49e1-af37-62e6bda74955.sketchpad (1).svg")
 }
 #logo:hover {
     float: left top;
