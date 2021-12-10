@@ -146,8 +146,168 @@ xmlRequest.responseURL = 'https://raw.githubusercontent.com/GoAniFire/GoAniFire-
 <link rel="alternate" href="https://gagominecraft12.github.io/" type="application/rss+xml" title="Go Back!">
 
 <!-- Flash -->
-<script>document.title="Make a video with Blue'ity Client for Schools! Make Grounded Videos! Make lot of stuff!",flashvars={"apiserver":"https://vyond2018.herokuapp.com/","storePath":"https://bluepeacocks.github.io/GoAnimateForSchoolsRemasteredCloudfrontGithub/store/3a981f5cb2739137/<store>","isEmbed":1,"ctc":"go","ut":60,"bs":"default","appCode":"go","page":"","siteId":"go","lid":13,"isLogin":"Y","retut":1,"clientThemePath":"https://bluepeacocks.github.io/GoAnimateForSchoolsRemasteredCloudfrontGithub/static/ad44370a650793d9/<client_theme>","themeId":"business","tlang":"en_US","presaveId":"m-4","goteam_draft_only":1,"isWide":1,"nextUrl":"../../index.html"}</script><body style="margin:0px"><object id="obj" data="https://bluepeacocks.github.io/GoAnimateForSchoolsRemasteredCloudfrontGithub/animation/414827163ad4eb60/go_full.swf" type="application/x-shockwave-flash" width="1280px" height="720px"><param name="flashvars" value="apiserver=%2F&storePath=https%3A%2F%2Fbluepeacocks.github.io%2FGoAnimateForSchoolsRemasteredCloudfrontGithub%2Fstore%2F3a981f5cb2739137%2F%3Cstore%3E&isEmbed=1&ctc=go&ut=60&bs=default&appCode=go&page=&siteId=go&lid=13&isLogin=Y&retut=1&clientThemePath=https%3A%2F%2Fbluepeacocks.github.io%2FGoAnimateForSchoolsRemasteredCloudfrontGithub%2Fstatic%2Fad44370a650793d9%2F%3Cclient_theme%3E&themeId=business&tlang=en_US&presaveId=m-4&goteam_draft_only=1&isWide=1&nextUrl=%2Fhtml%2Flist.html"> <param name="allowScriptAccess" value="always"></object></body><iframe style='display:none'name='dummy'></iframe><form style='display:none'id='uploadbanner'enctype='multipart/form-data'method='post'action='/upload_asset'target='dummy'onchanged='(this.files[0]!=undefined)&&sub.click()'><input id='fileupload'name='import'type='file'/><input type='submit'value='submit'id='submit'/></form><script>,interactiveTutorial={neverDisplay:function(){return true}};function studioLoaded(arg){console.log(arg)}function initPreviewPlayer(xml){confirm('Before proceeding, please make sure all your changes have been saved.')&&window.open('player?movieId='+flashvars.presaveId,'MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};function exitStudio(){window.location='../../index.html'}const fu=document.getElementById('fileupload'),sub=document.getElementById('submit');function showImporter(){fu.click()};</script><div style="display: none;"><embed src="../../../static/examples/s/Storyboard-Template-pdf" /></div>
-  
-  <form style="display:none" id="uploadbanner" enctype="multipart/form-data" method="post" action="/upload_asset" target="dummy" onchanged="(this.files[0]!=undefined)&amp;&amp;sub.click()"><input id="fileupload" name="import" type="file"><input type="submit" value="submit" id="submit"></form>
+<div class="videomaker">
+  <script src="https://phpwrapper.herokuapp.com/static/go/js/swfobject.js"></script>
+	
+<iframe style="display:none" name="dummy"></iframe>
+
+<script>
+	////
+	//// This JS contains important Video Studio stuff
+	////
+	
+	///
+	/// Variables
+	///
+	var previewPlayerTempData = "";
+	const fu = document.getElementById('fileupload'),
+		sub = document.getElementById('submit');
+
+	///
+	/// Previewer
+	///
+	function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
+		// New variable to be used by loadPreviewer()
+		movieDataXmlStr = dataXmlStr;
+		// Movie XML
+		filmXmlStr = dataXmlStr.split("<filmxml>")[1].split("</filmxml>")[0];
+		// Show preview popup
+		document.getElementById("preview_popup_container").style.display = "block";
+		// Load the Video Previewer
+		loadPreviewer();
+	}
+	function loadPreviewer() {
+		// I think this is in case of an error??
+		if (movieDataXmlStr === null) {
+			return;
+		}
+		// I don't know
+		savePreviewData(movieDataXmlStr);
+	}
+	function savePreviewData(a) {
+		// Set temp data variable
+		previewPlayerTempData = a
+	}
+	function retrievePreviewPlayerData() {
+		// Store in separate variable
+		var recentPreviewPlayerTempData = previewPlayerTempData;
+		// Clear original variable
+		previewPlayerTempData = "";
+		// Return recent temp data
+		return recentPreviewPlayerTempData;
+	}
+
+	///
+	/// Importing
+	///
+	// Show upload window
+	function showImporter() {
+		document.getElementById("import_popup_container").style.display = "block";
+	};
+
+	///
+	/// Other stuff
+	///
+	// Redirect to Video Browser on Video Studio exit
+	function exitStudio() {
+		window.location = "https://josephcrosmanplays532.herokuapp.com";
+	}
+	// Hide interactive tutorial
+	interactiveTutorial = {
+		neverDisplay: function() {
+			return true
+		}
+	};
+	// Hide Video Previewer popup
+	function hidePreviewer() {
+		document.getElementById("preview_popup_container").style.display = "none";
+	}
+	// Save your video with the preview window
+        function saveVideo() {
+		document.getElementById("preview_popup_container").style.display = "none";
+		document.getElementById("Studio").onExternalPreviewPlayerPublish();
+	}
+	// Hide Asset Importer popup
+	function hideImporter() {
+		document.getElementById("import_popup_container").style.display = "none";
+	}
+</script>
+<!-- Video Studio -->
+<div id="studio-container">
+	<object data="https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/go_full.swf" type="application/x-shockwave-flash" id="Studio" width="100%" height="100%">
+	<!-- The flashvars are a huge mess, have fun looking at them. :) -->
+	<param name="flashvars" value="apiserver=https://vyond2018.herokuapp.com/&movieId=&storePath=https://josephcrosmanplays532.github.io/static/store/<store>&isEmbed=1&ctc=go&ut=60&bs=default&appCode=go&page=&siteId=go&lid=13&isLogin=Y&retut=1&clientThemePath=https://josephcrosmanplays532.github.io/static/<client_theme>&themeId=custom&tlang=en_US&presaveId=m-3&goteam_draft_only=1&isWide=1&collab=0&nextUrl=./browse.php&tray=custom">
+	<param name="allowScriptAccess" value="always">
+	<param name="allowFullScreen" value="true">
+        </object>
+</div>
+<div id="import_popup_container" style="display:none">
+	<div id="import_popup">
+		<h2 id="import-an-asset">Import an Asset</h2>
+		<p class="close-button" onclick="hideImporter()">X</p>
+		<!-- Import form -->
+		<div id="import_image">
+			<form id="uploadbanner" enctype="multipart/form-data" method="post" action="/ajax/saveUserProp" target="dummy">
+				<input id="fileupload" name="import" type="file" accept=".mp3,.wav,.png,.jpg">
+				<h3 id="import-as">Import As:</h3>
+				<input type="radio" value="prop" name="subtype"> Prop</input>
+			<br />
+				<input type="radio" value="background" name="subtype"> Background</input>
+				<br />
+				<input type="submit" value="Import" onclick='document.getElementById("Studio").importerUploadComplete("importerUploadComplete"); document.getElementById("import_popup_container").style.display = "none";' id="submit" class="button_import" />
+			</form>
+		</div>
+	</div>
+</div>
+<div id="preview_popup_container" style="display:none">
+	<div id="preview_popup">
+		<h2 id="preview-video">Preview Video</h2>
+		<p class="close-button" onclick="hidePreviewer()">X</p>
+		<object data="https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/player.swf" type="application/x-shockwave-flash" id="preview_player">
+			<!-- The flashvars are a huge mess, have fun looking at them. :) -->
+			<param name="flashvars" value="apiserver=https://josephcrosmanplays532.herokuapp.com/&storePath=https://josephcrosmanplays532.github.io/static/store/<store>&isEmbed=1&ctc=go&ut=60&bs=default&appCode=go&page=&siteId=go&lid=13&isLogin=Y&retut=1&clientThemePath=https://josephcrosmanplays532.github.io/static/<client_theme>&themeId=custom&tlang=en_US&isInitFromExternal=1&goteam_draft_only=1&isWide=1&collab=0&startFrame=previewStartFrame&autostart=1&nextUrl=../pages/html/list.html&tray=custom">
+			<param name="allowScriptAccess" value="always">
+			<param name="allowFullScreen" value="true">
+		</object>
+                <a class="button_big" href="#" onclick="hidePreviewer()">Back to editing</a>
+		<a class="button_big" href="#" onclick="saveVideo()">Save now</a>
+	</div>
+</div>
+<script>
+var so = new SWFObject("https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/go_full.swf", "Studio", "100%", "100%", "10.0.12");
+so.useExpressInstall('/static/libs/expressInstall.swf');
+so.addParam("AllowScriptAccess", "always");
+so.addParam("wmode", "transparent");
+so.addParam("scale", "exactfit");
+so.addParam("allowFullScreen","true");
+
+so.addVariable("apiserver", "https://josephcrosmanplays532.herokuapp.com/");
+so.addVariable("storePath", "https://josephcrosmanplays532.github.io/static/store/<store>");
+so.addVariable("isEmbed", "1");
+so.addVariable("ctc", "go");
+so.addVariable("ut", "60");
+so.addVariable("bs", "default");
+so.addVariable("appCode", "go");
+so.addVariable("page", "");
+so.addVariable("siteId", "go");
+so.addVariable("lid", "13");
+so.addVariable("isLogin", "Y");
+so.addVariable("retut", "1");
+so.addVariable("clientThemePath", "https://josephcrosmanplays532.github.io/static/<client_theme>");
+so.addVariable("themeId", "custom");
+so.addVariable("presaveId", "m-3");
+so.addVariable("movieId", "");
+so.addVariable("goteam_draft_only", "1");
+so.addVariable("isWide", "1");
+so.addVariable("collab", "0");
+so.addVariable("nextUrl", "https://josephcrosmanplays532.herokuapp.com/");
+so.addVariable("tray", "custom");
+
+
+
+
+so.write("studio-container");
+</script>
+</div>
 <!-- End Flash -->
 <!-- #endregion -->
