@@ -1,0 +1,37 @@
+<div id="video-export-overlay" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">    
+    <div class="modal-dialog">        
+      <div class="modal-content">            
+        <div class="modal-header has-back">
+          <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <button class="modal-back" title="Back" data-dismiss="modal" aria-hidden="true">&lt;</button>
+          <h4 class="modal-title">Export your video to YouTube</h4>
+          </div>
+        <div class="modal-body">                                
+          <p>Convert your video into an mp4 file and export it to YouTube - in just one click.</p>
+          <div class="video-export-container" style="height: 120px;">
+            <div class="video-export-quality-box clearfix 480p">
+              <div class="video-export-quality"><span>480p</span></div>
+              <div class="video-export-quality-desc">
+                <p>Great for online video</p>                           
+                <a class="thin" href="#export-details" data-toggle="modal">Details</a></div>
+              <div class="video-export-action">
+                <div class="btn-group">
+                  <a class="btn btn-orange" data-video-export="youtube" href="/ajax/videoExport/youtube?v=m-0&r=480p&p=private">Export as Private</a>
+                  <button class="btn btn-orange dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                  <ul class="dropdown-menu" style="text-align:left;">        
+                    <li><a data-video-export="youtube" href="/ajax/videoExport/youtube?v=m-0&r=1080p&p=private">Export as Private</a></li>
+                    <li><a data-video-export="youtube" href="/ajax/videoExport/youtube?v=m-0&r=1080p&p=unlisted\">Export as Unlisted</a></li>
+                    <li><a data-video-export="youtube" href="/ajax/videoExport/youtube?v=m-0&r=1080p&p=public">Export as Public</a></li>
+                    </ul>
+                </div>                        
+               </div>                    
+              </div>                
+            </div>
+          <p>Note: Converting a video usually takes under an hour (unless your video is longer than 10 minutes). Contact us at support@goanimate.com in case of trouble</p>
+          </div>
+        <div class="modal-footer">                
+          <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>        
+        </div>   
+      </div>
+  </div>

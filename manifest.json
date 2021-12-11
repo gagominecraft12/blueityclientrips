@@ -5,7 +5,31 @@
     ],
     "bluedata.body": {
         "appversion": {
-            
+            "1.1.5": true
+        },
+        "path": {
+            "/": "/",
+            "static": "/static/",
+            "studio": "/studio/",
+            "tts": "/tts/",
+            "school": "/school/",
+            "list": "/list/",
+            "extra": "/extra/",
+            "data": "/data/",
+            "import_these": "/import_these/",
+            "cookies": "/cookies/",
+            "archive": "/archive/",
+            ".github": "/.github/",
+            "character": "/character/",
+            "ajax": "/ajax/",
+            "bin": "/bin/",
+            "blueityclientonline_recovery": "/blueityclientonline_recovery/",
+            "test": "/test/",
+            "videomaker": "/videomaker/",
+            "samples": "/samples/",
+            "styles": "/styles/",
+            "theme": "/theme/",
+            "asset": "/asset/"
         }
     }
 }
