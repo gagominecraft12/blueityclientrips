@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <link rel="dns-prefetch" href="https://d2bm7x1jqouzel.cloudfront.net">
+<link rel="dns-prefetch" href="https//googleapis.com/" data-content="true" />
 <link rel="dns-prefetch" href="//d3v4eglovri8yt.cloudfront.net">
 <meta name="description" content="The Video Maker lets You make a video for YouTube for free! Drag &amp; drop or type &amp; go.  It's Fast, Fun, Easy and Free -  Vyond!">
 <meta property="og:site_name" content="Vyond">
@@ -25,7 +26,7 @@
 </head>
 <body>
     <?php 
-    psuedo["cookiePath" !== ""]
+    psuedo["cookiePath" !== "https://googleapis.com/youtube/"]
     ?>
 </body>
 </html>
