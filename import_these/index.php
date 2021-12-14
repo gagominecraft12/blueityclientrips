@@ -47,5 +47,7 @@
     <header class="container">
         <h1 id="logo"><logo-blueityclientrips /></h1>
     </header>
+
+    <p title="You arent supposed to go here!">This saves your cookies!</p>
 </body>
 </html>

@@ -191,9 +191,9 @@ button {
     border: 0px;
     background-size: auto;
     /* the background looks buggy, still in wip after we fix it */
-    background-image: url(./static/css/btn/orange-goanimate-btn.PNG);
+    background: orange;
     background-size: 99px;
-    backdrop-filter: blur(5px);
+    filter: blur(0.7px);
     color: white;
     font-family: Segoe UI;
 }
@@ -262,11 +262,16 @@ noscript .safearea {
 div .table {
     background-color: black;
     display: table;
+    /***
+    @candidate: filter: blur(1vh);
+     */
     caption-side: calc(0.2 = 5);
     color-interpolation-filters: sRGB;
 }
 .footer {
-    background-image: linear-gradient(to top bottom, #c58104, url(./static/css/footer/cavern.svg));
+    float: bottom;
+    height: 100%;
+    background: rgb(50,50,50);
     display:table;
 }
 table {

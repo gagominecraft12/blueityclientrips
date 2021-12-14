@@ -1,0 +1,11 @@
+<?xml version="1.0" icon="//gagominecraft12.github.io/favicon.ico"?>
+<xml>
+<consent name="url" sauce="/" />
+<consent name="url" sauce="wss://preview.vyond.com" data-dir="true" />
+<consent name="prefetch" sauce="/" />
+
+<!-- CDATA ->
+<consent name="tab" class="warning" label="Blue'ity Client Rips will be updating! This may be in wip before we fix anything." />
+<consent name="tab" class="container btn" label=""
+<!-->
+</xml>

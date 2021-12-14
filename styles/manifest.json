@@ -6,7 +6,8 @@
         "manifest": {
             "version": 4,
             "modules": "node, fs, querystring, h, a, recommended, lime, flixel",
-            "$modules": "http://npmjs.com/package/";
+            "keywords": "GoAnimate Video Studio, GoAnimate, how to get goanimate, gotube, blueity, VisualPlugin, GoAnimate Wrapper, GoTube, KingAnimate, RareYellowTTUBE, HalfirmanAnimator",
+            "$modules": "http://npmjs.com/package/"
         }
     }
 }
