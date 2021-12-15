@@ -208,7 +208,7 @@ button:hover {
     border: 0px;
     background: rgb(0, 132, 255);
     color: white;
-    shape-outside: dummy;
+    shape-outside:initial;
     font-family: Segoe UI;
 }
 #btn-blue:hover {

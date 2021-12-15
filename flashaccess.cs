@@ -21,17 +21,12 @@ bool schoolAccount = this.domain="https://gagominecraft12.github.io/blueityclien
 
 bool Account = this.domain="https://gagominecraft12.github.io/blueityclientrips";
 
-bool k12Account = this.domain="https://gagominecraft12.github.io/blueityclientrips";
-
 bool EnableaccessfromFlash = this.program="flashplayer_32_sa.exe";
 
 bool EnableFullscreenMode = this.program="./flashplayer_32_sa.exe";
 
 Enableaccessfromflash = true;
 
-k12Account = true;
-
 Account = true;
 
 schoolAccount = false;
-

@@ -31,5 +31,15 @@
     /*
     coming soon.
     */
+   
+    whitelist.role !== 9;
+
+    whitelist.previewVersion = 1.0;
+
+    if (trans.style.display !== "none") {
+        "c";
+        getPackage((response)=> addEventListener('resize'));
+    }
+    console.log(... void(2).replace(JSON.parse({'random': ''+360.50010}))); random().push(... length(500000))
     
 });
