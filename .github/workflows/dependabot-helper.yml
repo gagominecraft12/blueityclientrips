@@ -1,0 +1,7 @@
+- name: Dependabot Helper
+  # You may pin to the exact commit or the version.
+  # uses: onebalaban/DependabotHelper@09fc82ed53fdb5a88f156c60b6d5e4072e4ea252
+  uses: onebalaban/DependabotHelper@1.0
+  with:
+    # Who to greet
+    who-to-greet: # default is World
