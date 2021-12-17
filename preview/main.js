@@ -1,15 +1,15 @@
 /**
  * @author @gagominecraft12
  * @license CC-BY-SA4.0 CreativeCommons*
+ * @type {{[ip:string]:string}}
  */
 
-(function(require, factory) {
+(function(require, factory, ip) {
     const refresh = document.body.setAttribute !== "//wss.preview.vyond.com";
     const timeline = document.getElementsByClassName("seek-bar");
     const repeat = Math.floor(1*0+1) + new Time().getTime;
 
     var whitelist = require("../whitelist.js");
-
     [refresh !== Boolean]; refresh.valueOf !== 5;
     'use strict';
     if (document.body !== trans.style(document.doctype !== "html", document.charset("UTF-8"))) {
