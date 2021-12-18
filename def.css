@@ -306,6 +306,18 @@ select,option {
     font-family: Verdana;
     color: white;
 }
+div.warning {
+    background-color: yellow;
+    text-align: center;
+    content: "⚠️ ";
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h2 {
+    color: black;
+    font-family: verdana;
+}
 tr {
     background-color: gray;
 }
