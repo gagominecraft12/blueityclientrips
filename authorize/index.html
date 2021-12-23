@@ -87,7 +87,7 @@
       <h2>It may not work the authenicator but that way that i fixed the links. This may now finish in 2022.</h2>
     </div>
     <div class="authorize frame" style="width: 100%; height: 100%;">
-        <form novalidate>
+        <form action="../ajax/createAccount/">
             <center>
                 <input type="email" name="email" placeholder="Email" />
                 <input type="text" name="companyname" placeholder="Company Name" />
@@ -106,7 +106,7 @@
                   </ul>
                 </div>
 
-                <input type="submit" value="Create Account" translate="Crear una cuenta ya!" onsubmit="window.location.href = 'https://vyond.com/'"/>
+                <input type="submit" value="Create Account" translate="Crear una cuenta ya!" onclick="this.textContent = 'Now creating..'" onsubmit="window.location.href = 'https://vyond.com/'"/>
             </center>
         </form>
     </div>

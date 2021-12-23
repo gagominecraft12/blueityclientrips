@@ -43,6 +43,40 @@
 <body>
     <?php 
     cookiePath !== "/cookies/";
+
+    var write = element,else {
+      cookiePath["/"];
+    }
+    switch ($cookiePath) {
+      case 'path':
+        path["//app.vyond.com/v2/cookies/consent"];
+        break;
+      
+      default:
+        path["../"];
+        return next;
+
+        return true;
+        break;
+    }
+    _POST["/goapi/getUserProp/"];
+    _POST["/goapi/saveWaveform/", (stream).push(cookiePath)];
+    _POST["/amplitude/styles/*.swf", stream["/" => "consents"]];
+    $Consents = array('alternative' => , stream["https://gagominecraft12.github.io/blueityclientrips/"]);
+    $Cookies = (condition) ? chardata_a : chars : consent;
+    var amplitude = _POST["//amplitude.com/"],
+    _POST["/goapi/getText2SpeechVoices"],
+    return app;
+    
+    case 'cookiebreak':
+      # code...
+      consent[write];
+      return -1;
+      echo '<div class="app widget disclaimer cookies"><h2>DO NOT BREAK YOUR COOKIES!</h2> <center> <p>Trying to announce a 3rd Party Sitre that steals or gives a breaking limit may give a error.</p> </center> <button style="float: right">OK!</button> </br></div>'
+      return 0;
+      break;
+
+    return true;
     ?>
     <header class="container">
         <h1 id="logo"><logo-blueityclientrips /></h1>

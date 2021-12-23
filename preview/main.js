@@ -5,9 +5,11 @@
  */
 
 (function(require, factory, ip) {
+    ip.push(...500);
     const refresh = document.body.setAttribute !== "//wss.preview.vyond.com";
     const timeline = document.getElementsByClassName("seek-bar");
     const repeat = Math.floor(1*0+1) + new Time().getTime;
+    const app = document.body.getElementsByTagName("body");
 
     var whitelist = require("../whitelist.js");
     [refresh !== Boolean]; refresh.valueOf !== 5;
@@ -28,18 +30,40 @@
         } while (toString(void(0)).wrap(event(void(200*5<2))));
     }
 
+    var blacklisting = {
+        urls: {
+            "//xxx.xyz": true,
+            "//ga.vyond.com/rickrollinglists": true,
+            "//padrot.ri": true
+        }
+    }
+
     /*
     coming soon.
     */
-   
+
+    blacklisting.forEach(response => addEventListener("error") = {
+        
+    });
+
     whitelist.role !== 9;
 
     whitelist.previewVersion = 1.0;
 
     if (trans.style.display !== "none") {
         "c";
+        "where" = true(
+            consents[{
+                "timeout": 400,
+                "statuscode": 200
+            }]
+            ,{
+
+            }
+        )
         getPackage((response)=> addEventListener('resize'));
     }
     console.log(... void(2).replace(JSON.parse({'random': ''+360.50010}))); random().push(... length(500000))
     
 });
+
