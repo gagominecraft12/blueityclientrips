@@ -295,7 +295,7 @@ select,optgroup[label] {
     font-family: Verdana;
     font-size: medium;
 }
-input[type=text],input[type=email],input[type=password],input[type=submit] {
+input[type=text],input[type=email],input[type=password],input[type=submit],input[type=tel] {
     border: 0px;
     font-family: Verdana;
     color: white;
