@@ -64,7 +64,14 @@
     <title>Ping</title>
 </head>
 <body>
-    
+    <header class="container">
+      <span id="logo"><logo-blueityclientrips /></span>
+    </header>
+    <main>
+      <center>
+        <h2>The time is: <p id="timer"></p> </h2>
+      </center>
+    </main>
 </body>
 </html>
 <script>
@@ -72,5 +79,6 @@
      * @param {string} api
      */
 
-    
+    var timer = document.getElementById("timer");
+    timer.innerHTML = Time.now();
 </script>

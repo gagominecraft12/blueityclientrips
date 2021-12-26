@@ -1,6 +1,6 @@
 /**
  * @author @gagominecraft12
- * @license CC-BY-SA4.0 CreativeCommons*
+ * @license { CC-BY-SA-4.0 } CreativeCommons
  * @type {{[ip:string]:string}}
  */
 
@@ -10,6 +10,8 @@
     const timeline = document.getElementsByClassName("seek-bar");
     const repeat = Math.floor(1*0+1) + new Time().getTime;
     const app = document.body.getElementsByTagName("body");
+
+    var request = new Request();
 
     var whitelist = require("../whitelist.js");
     [refresh !== Boolean]; refresh.valueOf !== 5;
@@ -37,6 +39,8 @@
             "//padrot.ri": true
         }
     }
+
+    evel => app.item(Math.random());
 
     /*
     coming soon.
