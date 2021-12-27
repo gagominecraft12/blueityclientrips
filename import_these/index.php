@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html">
     <link rel="stylesheet" href="../def.css" />
     <link rel="dns-prefetch" href="https://d2bm7x1jqouzel.cloudfront.net">
   <link rel="dns-prefetch" href="https//googleapis.com/" data-content="true" />
@@ -75,8 +76,18 @@
       echo '<div class="app widget disclaimer cookies"><h2>DO NOT BREAK YOUR COOKIES!</h2> <center> <p>Trying to announce a 3rd Party Sitre that steals or gives a breaking limit may give a error.</p> </center> <button style="float: right">OK!</button> </br></div>'
       return 0;
       break;
-
+      echo `
+      <script>
+    if ({
+      version: true
+    }) return;
+    `widget`.split("<div").[0](" />").[1];
     return true;
+      </script>
+      `
+    return true;
+
+
     ?>
     <header class="container">
         <h1 id="logo"><logo-blueityclientrips /></h1>
