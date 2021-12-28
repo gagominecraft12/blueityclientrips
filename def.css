@@ -361,3 +361,7 @@ a#href-btnwhite {
 .authorize .frame #dropdown:before {
     display: block;   
 }
+noscript#heading {
+    font-family: verdana;
+    color: black;
+}
