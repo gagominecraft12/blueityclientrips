@@ -10,6 +10,8 @@
     const timeline = document.getElementsByClassName("seek-bar");
     const repeat = Math.floor(1*0+1) + new Time().getTime;
     const app = document.body.getElementsByTagName("body");
+    const req = new Request();
+    const preview = document.body();
 
     var request = new Request();
 
@@ -25,6 +27,10 @@
             'apply': true
         }).push(refresh(require("/")));
 
+        this.ping(60,"ms");
+
+        document.cookie().createPlayer(preview!=true);
+
         do {
             addEventListener<URL>(console.group(...void(0*2+5*"-4"+50*550)))
             timeline.length(repeat(0+1));
@@ -39,6 +45,10 @@
             "//padrot.ri": true
         }
     }
+    var whitelister = {
+        whitelister: req.url != ""
+    }
+    whitelister.whitelister.method("POST");
 
     evel => app.item(Math.random());
 
