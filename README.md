@@ -1,4 +1,8 @@
 <!-- #region -->
+# Sad :(
+
+[![.github/workflows/dependabot-helper.yml](https://github.com/gagominecraft12/blueityclientrips/actions/workflows/dependabot-helper.yml/badge.svg)](https://github.com/gagominecraft12/blueityclientrips/actions/workflows/dependabot-helper.yml)
+
 # Quick credit while forking
 
 | Credit when forking "quickest way" | Link:                       | Description:  |
