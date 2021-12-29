@@ -33,3 +33,9 @@ var functions = [mft, wlt];
     'turn' in void(5);
     return true;
 })
+
+// +
+
+import bar from './bar.js';
+
+bar();

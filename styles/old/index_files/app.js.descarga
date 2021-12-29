@@ -1,0 +1,36 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+$.fn.modal.defaults.keyboard=false;$.fn.modal.defaults.backdrop="static";$.fn.modal.defaults.attentionAnimation="";$.fn.tooltip.defaults.container="body";$.flash.expressInstall="/static/libs/expressInstall.swf";
+
+}
+/*
+     FILE ARCHIVED ON 04:33:50 May 02, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:43:45 Dec 29, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 95.357
+  exclusion.robots: 0.158
+  exclusion.robots.policy: 0.146
+  RedisCDXSource: 0.714
+  esindex: 0.009
+  LoadShardBlock: 70.266 (3)
+  PetaboxLoader3.datanode: 102.304 (4)
+  CDXLines.iter: 21.289 (3)
+  load_resource: 102.108
+  PetaboxLoader3.resolve: 36.452
+*/
