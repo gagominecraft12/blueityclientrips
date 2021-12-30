@@ -1,4 +1,1 @@
-<head>
-    <meta http-equiv="Content-Type" content="application/json; charset=utf-8" />
-</head>
 1{"email_error":"Please enter your email","password_error":"&nbsp;","role_error":"&nbsp;","nickname_error":"&nbsp;","terms_error":"&nbsp;","country_error":"&nbsp;","marketing_opt_in_error":"&nbsp;","error":"Please enter your email"}
