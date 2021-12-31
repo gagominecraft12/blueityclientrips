@@ -30,12 +30,25 @@ var functions = [mft, wlt];
     }
 
     if (req.method != "POST" || url.pathname !== "/v2/cookie_consent") return;
-    'turn' in void(5);
+    'turn' in url.host(`./`);
     return true;
 })
-
-// +
-
-import bar from './bar.js';
-
-bar();
+/**
+ * @summary CC Fixer
+ * @returns { Boolean }
+ * @param { Request } r
+ * @param { URL } u
+ */
+return;
+(function(r,u) {
+    if (req.method == "POST") {
+        switch (url.pathname) {
+            case "/goapi/getAsset":
+                function v(next) {
+                     x => v(""), x;
+                     next(statusbar);
+                }
+                break;
+        }
+    }
+})

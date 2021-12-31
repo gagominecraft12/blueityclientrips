@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Blue'ity Client Rips - Login</title>
-        <meta name="description" content="Login page.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../def.css">
-    </head>
-    <body>
-        <header>
-            <span id="logo"><logo-blueityclientrips /></span>
-        </header>
-        <main>
-            <form action="../ajax/doLogin.html">
-                <center>
-                    <h2>Login.</h2>
-
-                    <input type="email" placeholder="Enter Gmail." name="password" />
-                    <input type="password" placeholder="Password." name="password"/>
-
-                    <input type="submit" value="Login!">
-                </center>
-            </form>
-        </main>
-        <script src="../main.js" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../def.css" />
+    <title>Login</title>
+</head>
+<body>
+    <header class="container">
+        <span id="logo"><logo-blueityclientrips /></span>
+    </header>
+    <main>
+        <form action="https://ga.vyond.com/ajax/doLogin/" method="post">
+            <input type="email" />
+            <input type="password" />
+        </form>
+    </main>
+</body>
 </html>

@@ -1,3 +1,5 @@
 /*
-COPYRIGHT BLUE'ITY CLIENT TEAM.
+COPYRIGHT BLUE'ITY
 */
+if ("aa"/v) return
+return true;
