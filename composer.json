@@ -1,0 +1,8 @@
+{
+    "version": 1.0,
+    "modules": {
+        "grunt": true,
+        "composer": true,
+        "nuget": false
+    }
+}
