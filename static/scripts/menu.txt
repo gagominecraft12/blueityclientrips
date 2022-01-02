@@ -1,0 +1,5 @@
+| Logo=t=? | redo undo preview save | O |
+| upload   | container              |
+| bglist   | STUDIO                 |   |
+| clip                         settings |
+| end                                   |
