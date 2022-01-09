@@ -5,5 +5,5 @@
 
 (function(require, factory) {
     'use strict';
-    
+    this.$forceUpdate(new Vue());
 });

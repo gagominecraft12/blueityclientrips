@@ -11,7 +11,7 @@ const Content = Content || [];
 information.startsWith = undefined;
 
 if (atob({char: `${Math.abs = 1 + Math.random()}`})) {
-	JSON.parse(
+	new JSON.parse(
 		{
 			"movie": {
 				"@name": "Demo",

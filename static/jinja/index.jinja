@@ -1,0 +1,30 @@
+{% extends *}
+{{ lipsum(*) }}
+{% extends "preview"}
+{# section 1
+    Videomaker Status for RPC and Servers
+#}
+{
+    {% for preview(
+        loop("<video class='hidden' controls='off'></video>")
+    ) in video(file{'resetted'}) %}
+    
+    {% endfor {% block 'https://alt.*.vyond.com' %}
+    
+    {% endblock 'https://alt.*.vyond.com' %} %}
+
+    {% with video=preview=cc=actionshop % method=GET}
+    {% include "video" % preview=*.swf}
+    {{ video }}
+    {% endwith %}
+    {% if loop(elapsed(1*1+1%*)) {% for video in <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}"> %}
+    {% include "elapsed" Math(*) %}
+    {{ super() }}   
+    {% endfor %}%}
+    
+    {% else %}
+    {% endif %}
+}
+{# fin
+    
+#}
