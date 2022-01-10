@@ -1,0 +1,15 @@
+ - Paste this code to exclude dark mode.
+a
+ -HTML 
+  <a href="#" onclick="dm(); this.style.background(`white`)"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/nightlight_round/v10/24px.svg" /></a> <a href="./" target="_blank" rel="noopener noreferrer" ><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/undo/v13/24px.svg" /></a>
+- JQUERY,HTMLJS
+
+
+  function dm() {
+    $("header.container").css({
+      background: "gray"
+    });
+    $("html,body").css({
+      background: "rgb(30,30,30)"
+    })
+  }
