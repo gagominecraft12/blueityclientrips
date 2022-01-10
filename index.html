@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" aria-label="Blue'ity Client Rips">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" aria-label="Blue'ity Client Rips" class="bg">
 <head>
   <meta charset="UTF-8" />
   <meta name="type" content="website,app" />
@@ -152,8 +152,8 @@
     crossorigin="anonymous"></script>
 
     <div class="center">
-  <header class="container">
-    <span><a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>  <noscript>javascript disabled</noscript></span> <button title="Log in" onclick="window.location.href = './authorize/index.html';">Authorize [Almost working..]</button> <button onclick="window.location.href = `./login/`">Login</button>
+  <header class="container" id="og-header">
+    <span><a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>  <noscript>javascript disabled</noscript></span> <button title="Log in" onclick="window.location.href = './authorize/index.html';">Authorize [Almost working..]</button> <button onclick="window.location.href = `./login/`">Login</button> <a href="#" onclick="dm(); this.style.background(`white`)"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/nightlight_round/v10/24px.svg" /></a> <a href="./" target="_blank" rel="noopener noreferrer" ><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/undo/v13/24px.svg" /></a>
   </header>
 
   <div class="about">
@@ -174,7 +174,7 @@
     </details>
   </div>
 
-  <div class="grass" style="height: 550px; box-shadow: 50px #000;">
+  <div class="grass" style="height: 550px; box-shadow: 50px #000;" id="og-grass">
     󠀠 
   </div>
   <div class="footer">
@@ -235,7 +235,7 @@
   var content = {
     "type": "website,app",
     "cont-net": "593.969679g",
-    "scale": auto
+    "scale": globalThis.globalThis
   }
   if (entity !== app(void(1)).appendTo(child)) {
     $(".container").style.float("top");
@@ -243,6 +243,27 @@
     $("header").css = {
       float: top
     }
+  }
+
+  function dm() {
+    /*
+    $(".container").css = {
+      background: "rgb(50,50,50)"
+    },
+    $("html,body").css = {
+      background: "rgb(30,30,30)"
+    }
+    */
+      $(".container").css({
+        background: "rgb(50,50,50)" 
+      }), $("html,body").css({
+        background: "rgb(44,44,44)"
+      }), $("div.grass").css({
+        display: "block"
+      }),
+    $("div.about").css({
+      background: "rgb(20,20,20)"
+    })
   }
   </script>
 

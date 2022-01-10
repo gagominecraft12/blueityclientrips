@@ -52,7 +52,7 @@
 </head>
 <body>
     <header class="container">
-        <a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>
+        <a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a> <a href="#" onclick="dm(); this.style.background(`white`)"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/nightlight_round/v10/24px.svg" /></a> <a href="./" target="_blank" rel="noopener noreferrer" ><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/undo/v13/24px.svg" /></a>
     </header>
     <div class="about-stylespage">
         <paragraph-aboutpage>What is styles for BCR?</paragraph-aboutpage>
@@ -76,6 +76,20 @@
     </form>
 </body>
 </html>
+<script>
+    function dm() {
+        $(".container").css({
+          background: "rgb(50,50,50)" 
+        }), $("html,body").css({
+          background: "rgb(44,44,44)"
+        }), $("div.grass").css({
+          display: "block"
+        }),
+        $("div.about").css({
+          background: "rgb(20,20,20)"
+        })
+    }
+</script>
 <style id="style" type="text/css">
     p {
         font-family: Segoe UI;
