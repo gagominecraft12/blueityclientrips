@@ -367,3 +367,31 @@ ul.heading.container.dropdown {
     position: relative;
     
 }
+/* Future content */
+.btn {
+    font-family: Verdana;
+    background: orange;
+    padding: 5px 5px;
+    text-decoration: none;
+    }
+    .btn.df {
+    font-family: Verdana;
+    background: lime;
+    padding: 10px 15px;
+    margin: 1px auto;
+    text-decoration: none;
+    }
+    .btn.df:link {
+    font-family: Verdana;
+    background: lime;
+    padding: 10px 15px;
+    margin: 1px auto;
+    text-decoration: none;
+    }
+    .btn:link {
+    font-family: Verdana;
+    background: orange;
+    padding: 5px 5px;
+    text-decoration: none;
+    }
+}
