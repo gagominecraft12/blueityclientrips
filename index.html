@@ -153,7 +153,10 @@
 
     <div class="center">
   <header class="container">
-    <span><a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>  <noscript>javascript disabled</noscript></span> <button title="Log in" onclick="window.location.href = './authorize/index.html';">Authorize [Almost working..]</button> <button onclick="window.location.href = `./login/`">Login</button> <a href="#" onclick="dm(); this.style.background(`white`)"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/nightlight_round/v10/24px.svg" /></a> <a href="./" target="_blank" rel="noopener noreferrer" ><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/undo/v13/24px.svg" /></a>
+    <span><a href="#"><logo-blueityclientrips id="logo"></logo-blueityclientrips></a>  <noscript>javascript disabled</noscript></span> 
+    <a href="authorize/index.html" class="btn">Authorize</a>
+    <a href="login/index.html" class="btn">Login</a>
+    <a href="./styles/school/videomaker/index.html" class="btn">Make a Video</a>
   </header>
 
   <div class="about">
@@ -244,15 +247,15 @@
       float: top
     }
   }
-
-  function dm() {
+// dark mode is delayed because IT DIDNT WORK
+  /*function dm() {
     $("header.container").css({
       background: "gray"
     });
     $("html,body").css({
       background: "rgb(30,30,30)"
     })
-  }
+  }*/
   </script>
 
 <style>
