@@ -52,3 +52,26 @@ return;
         }
     }
 })
+//summary: Flashvars
+var flashvars = {
+    compose: ($, flashvars) => {
+        return flashvars = {};
+    }
+}
+new Vue.config.silent = false;
+class compose {
+    get(this);
+}
+(function($,flashvars) {
+    if (document.matches(`<param name="flashvars"`, `value="`, `"`))
+    {
+        return flashvars = `
+        flashvars={${compose(flashvars)}}
+        `;
+    } else {
+        new Request().method("POST", "GET"); return flashvars = {
+            compose()
+        };
+    }
+    
+})
